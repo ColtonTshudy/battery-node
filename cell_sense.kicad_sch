@@ -5,44 +5,34 @@
 	(uuid "62c0855e-7e75-4e7a-b8e6-340a09709750")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PCM_JLCPCB-Capacitors:0402,10nF"
+		(symbol "ct_lib:C"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 2.032 1.668 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "10nF"
-				(at 2.032 -0.3782 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:C_0402"
-				(at -1.778 0 90)
+			(property "Value" "C"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +41,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C15195"
+			(property "Description" "Unpolarized capcitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "4779042"
+			(property "Manufacturer" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.005USD"
+			(property "Part" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -87,115 +77,23 @@
 					(hide yes)
 				)
 			)
-			(property "Process" "SMT"
+			(property "Tolerance" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Minimum Qty" "20"
+			(property "Voltage" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "CL05B103KB5NNNC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage Rated" "50V"
-				(at 2.032 -2.0462 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Capacitance" "10nF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature Coefficient" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402,10nF_0_1"
+			(symbol "C_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0.635) (xy 1.27 0.635)
@@ -221,7 +119,7 @@
 					)
 				)
 			)
-			(symbol "0402,10nF_1_1"
+			(symbol "C_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -243,276 +141,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.175)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_JLCPCB-Resistors:0402,100Ω"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.778 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100Ω"
-				(at 0 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:R_0402"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C25076"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "5907585"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.004USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Resistors,Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "0402WGF1000TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Resistance" "100Ω"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power(Watts)" "62.5mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "Thick Film Resistors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Overload Voltage (Max)" "50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Operating Temperature Range" "-55°C~+155°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature Coefficient" "±200ppm/°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402,100Ω_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402,100Ω_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -836,7 +464,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ct_lib:RTT20R039FTE"
+		(symbol "ct_lib:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -855,7 +483,7 @@
 					)
 				)
 			)
-			(property "Value" "39R"
+			(property "Value" "R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -881,7 +509,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-55℃~+155℃ 200V 39Ω 750mW ±1% 2010 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -890,7 +518,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
+			(property "Manufacturer" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -899,7 +527,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CQ1007F390JT4E"
+			(property "Part" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -908,16 +536,23 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "1%"
+			(property "Tolerance" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(symbol "RTT20R039FTE_0_1"
+			(property "Wattage" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -930,7 +565,7 @@
 					)
 				)
 			)
-			(symbol "RTT20R039FTE_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1587,6 +1222,131 @@
 		(uuid "ec702257-1056-48f9-bdc9-bd70dde1840f")
 	)
 	(symbol
+		(lib_id "ct_lib:R")
+		(at 115.57 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14c64934-cb3e-4f88-bffb-9ce53f4737a6")
+		(property "Reference" "R4"
+			(at 115.57 78.6595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39R"
+			(at 115.57 81.0838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 119.38 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/10W"
+			(at 115.57 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49b05f60-3eb6-4d58-956a-27bd6d151d25")
+		)
+		(pin "2"
+			(uuid "c1e48c77-956c-4c5e-8a5d-6bdc44b999b7")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ct_lib:MPZ2012S102ATD25")
 		(at 110.49 105.41 90)
 		(unit 1)
@@ -1594,10 +1354,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a18b6bc-75dd-4e21-bc55-15e0648812d0")
-		(property "Reference" "FB1"
-			(at 110.4392 98.6239 90)
+		(property "Reference" "FB2"
+			(at 109.982 110.3517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1364,7 @@
 			)
 		)
 		(property "Value" "1kR 100MHz"
-			(at 110.4392 101.0482 90)
+			(at 109.982 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,69 +1417,414 @@
 			)
 		)
 		(pin "1"
-			(uuid "a43d3398-d87b-46c7-acbd-c44728df0ed4")
+			(uuid "eeea7ebe-2a12-46ca-9340-8ffbe735a5ce")
 		)
 		(pin "2"
-			(uuid "c0ceea2a-2d98-4caa-9111-cca276417bf5")
+			(uuid "dd7e05f1-05df-42da-ae8f-981e0f3f69b6")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "FB5")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "FB10")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "FB3")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "FB14")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "FB9")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "FB4")
 					(unit 1)
 				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "FB1")
+					(reference "FB2")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "FB7")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "FB8")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "FB11")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "FB6")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "FB13")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "FB12")
 					(unit 1)
 				)
 			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "FB?")
+		)
+	)
+	(symbol
+		(lib_id "ct_lib:R")
+		(at 120.65 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b1a366d-bdb6-4a5f-ba06-4b3c23ae6585")
+		(property "Reference" "R7"
+			(at 120.65 126.9195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 120.65 129.3438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 124.714 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e7b332c-5eaf-4b8b-83db-a20163d403d2")
+		)
+		(pin "1"
+			(uuid "a5ec4be1-ea4f-4fce-9586-cdaa8560a467")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "R23")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "FB?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "R31")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "FB?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "R11")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "FB?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
+					(reference "R7")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "FB?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "R19")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "FB?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "R15")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "FB?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ct_lib:R")
+		(at 115.57 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6db22a3a-a9ae-4dbb-a9ea-ade7d516af30")
+		(property "Reference" "R5"
+			(at 115.57 118.0295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39R"
+			(at 115.57 120.4538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 119.38 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/10W"
+			(at 115.57 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b368988b-fee5-4b64-925e-6ffa959892c6")
+		)
+		(pin "2"
+			(uuid "4a2567bb-ab33-4f41-9746-f3a468f203dd")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ct_lib:R")
+		(at 120.65 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ed00db5-a8e0-4fd7-85a6-07de13c1c48f")
+		(property "Reference" "R6"
+			(at 120.65 100.2495 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 120.65 102.6738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 124.714 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9155bc6-c69c-4794-9eaf-e89822ff39a7")
+		)
+		(pin "1"
+			(uuid "1be472fb-8cb2-465a-b1ae-db79be6d45f7")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fb9851f-b8d8-4dc3-aa67-5e46a6841fa3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 90.17 147.32 0)
 			(effects
 				(font
@@ -1781,637 +1885,52 @@
 			)
 		)
 		(pin "1"
-			(uuid "e65dbfeb-b68b-477e-8b23-e4788f62c35b")
+			(uuid "3c532c4e-6424-453e-870e-f5ff11642b47")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "#PWR06")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "#PWR018")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "#PWR04")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "#PWR022")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
 					(reference "#PWR012")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
 					(reference "#PWR014")
 					(unit 1)
 				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "#PWR?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 120.65 132.08 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "818e8eb5-1a2f-41f7-b0ee-82105f4f8d6c")
-		(property "Reference" "R4"
-			(at 119.38 129.286 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 120.65 132.08 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 120.65 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5907585"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1000TCE"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "100Ω"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7746ede1-14be-4a8d-bd0c-3ad1321dee1c")
-		)
-		(pin "1"
-			(uuid "23a2868d-ab08-4a28-a4c8-2fb7f3473c33")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 120.65 105.41 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "926bf357-5ce0-4984-992d-ee61fee816d0")
-		(property "Reference" "R2"
-			(at 119.126 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 120.65 105.41 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 120.65 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5907585"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1000TCE"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "100Ω"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e188cc25-aaef-4684-ad97-bbe1a3e7716d")
-		)
-		(pin "1"
-			(uuid "da87cec7-909a-4c80-a845-150f2fe1519a")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,10nF")
+		(lib_id "ct_lib:C")
 		(at 135.89 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbc5e02d-fe0f-45eb-a3ea-37f7d2f198a9")
-		(property "Reference" "C1"
-			(at 137.922 88.502 0)
+		(uuid "afd193f5-102a-47c0-8445-f93f82515554")
+		(property "Reference" "C11"
+			(at 138.176 86.4757 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,514 +1939,16 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 137.922 90.5482 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 134.112 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "4779042"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.005USD"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05B103KB5NNNC"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 137.922 92.2162 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "10nF"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43f5f491-54d8-45ba-81f0-abc7fe3a5a81")
-		)
-		(pin "2"
-			(uuid "cef75c67-775a-4bb8-a405-233e79ee917d")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C9")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C5")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C17")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C1")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C13")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C21")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,10nF")
-		(at 135.89 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e414a6-197b-4835-9663-2c248ce456ac")
-		(property "Reference" "C3"
-			(at 137.922 111.362 0)
+			(at 138.176 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 137.922 113.4082 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 134.112 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "4779042"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.005USD"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05B103KB5NNNC"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 137.922 115.0762 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "10nF"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 135.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a233d8cb-941c-4292-8528-a97f100c59d4")
-		)
-		(pin "2"
-			(uuid "99a92ffa-5686-4290-9c20-9af41680c88d")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C11")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C19")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C15")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C23")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ct_lib:RTT20R039FTE")
-		(at 115.57 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c16bf8c5-2055-41ee-bb65-1ef545221895")
-		(property "Reference" "R1"
-			(at 115.57 78.6595 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39R"
-			(at 115.57 81.0838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 83.82 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +1957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 83.82 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,8 +1965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 200V 39Ω 750mW ±1% 2010 Chip Resistor - Surface Mount ROHS"
-			(at 115.57 83.82 0)
+		(property "Description" "Unpolarized capcitor"
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,8 +1974,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
-			(at 115.57 83.82 0)
+		(property "Manufacturer" ""
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,8 +1983,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CQ1007F390JT4E"
-			(at 115.57 83.82 0)
+		(property "Part" ""
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,79 +1992,56 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 115.57 83.82 0)
+		(property "Tolerance" ""
+			(at 140.208 94.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "9fbff76d-2329-47f3-a09f-53a58475daf0")
+		(property "Voltage" "50V"
+			(at 140.208 91.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "f36f3536-d0d9-4e9d-83e2-a46c645e0196")
+			(uuid "3723489c-34b1-4259-83e9-a8addced9474")
+		)
+		(pin "1"
+			(uuid "d76ecc01-b422-467e-8829-46c77bc1dbc5")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R9")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "C27")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R5")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "C35")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R17")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R1")
+					(reference "C11")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R13")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "C23")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R21")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "C19")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -3058,8 +2056,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4784f8a-188b-4ee3-9ed3-cebb5b8b4db9")
-		(property "Reference" "FB2"
-			(at 110.998 124.968 90)
+		(property "Reference" "FB3"
+			(at 110.0328 136.6958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +2065,7 @@
 			)
 		)
 		(property "Value" "1kR 100MHz"
-			(at 110.4392 127.7182 90)
+			(at 109.474 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,69 +2118,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "acfc92fd-9bb7-4bbf-be4b-42dc9aaf743d")
+			(uuid "c9b3e8a0-88ee-4b2d-8f43-ac956662104c")
 		)
 		(pin "2"
-			(uuid "f94f19b6-fca1-4ae9-b868-60f89aeaeef4")
+			(uuid "9ccadeed-88ad-4eec-9988-becd277b02e1")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "FB6")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "FB11")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "FB4")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "FB15")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "FB10")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "FB5")
 					(unit 1)
 				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "FB2")
+					(reference "FB3")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "FB8")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "FB9")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "FB12")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "FB7")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "FB14")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "FB?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "FB?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "FB?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "FB?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "FB?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "FB?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "FB?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "FB13")
 					(unit 1)
 				)
 			)
@@ -3198,7 +2166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb76e5d5-935b-47e8-b939-dd6c4fce4186")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 92.71 137.2757 0)
 			(effects
 				(font
@@ -3280,69 +2248,166 @@
 			)
 		)
 		(pin "2"
-			(uuid "4be8cb87-c9d8-4010-87e5-691c218125dd")
+			(uuid "96c8a1f6-c44d-4547-bf8c-56ae79b1d6a5")
 		)
 		(pin "1"
-			(uuid "19adbf18-5027-4ed4-b92d-4f88eaea8920")
+			(uuid "5e0b8bab-1ba3-49a1-8d4e-9f37bfb1a73a")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C12")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "C26")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C8")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "C34")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C20")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C16")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "C22")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C24")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "C18")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C28")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "C30")
 					(unit 1)
 				)
 			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C?")
+		)
+	)
+	(symbol
+		(lib_id "ct_lib:C")
+		(at 135.89 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cff2142a-a8f2-4983-86d9-260e5f17229c")
+		(property "Reference" "C12"
+			(at 138.176 109.3357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 138.176 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capcitor"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 140.208 116.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 140.208 114.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49195f30-74fc-49e2-9d8c-cc7a144c0fdd")
+		)
+		(pin "1"
+			(uuid "7085d72f-ec06-4af6-8523-a53e7ec940ec")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "C28")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "C36")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "C16")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
+					(reference "C12")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "C24")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "C20")
 					(unit 1)
 				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3358,7 +2423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4d005c7-01d8-4da2-9c32-ddb92d232c6d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 90.17 120.65 0)
 			(effects
 				(font
@@ -3403,66 +2468,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd87b7b3-5f38-4b86-b52d-7c9182cb1474")
+			(uuid "f5c6a077-f0c0-4124-8f54-6c9f2f4a1000")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "#PWR05")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "#PWR017")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "#PWR03")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "#PWR021")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "#PWR09")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "#PWR01")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
 					(reference "#PWR011")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
 					(reference "#PWR013")
 					(unit 1)
 				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "#PWR?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3478,7 +2513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed6afaba-ef8d-41ec-8ebb-ff4df8064783")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 92.456 110.0977 0)
 			(effects
 				(font
@@ -3560,218 +2595,39 @@
 			)
 		)
 		(pin "2"
-			(uuid "d10efd86-5dd0-4c45-ac42-ba52c20aaca7")
+			(uuid "c8a36e66-a43e-4bfc-a6bd-588f42a23b61")
 		)
 		(pin "1"
-			(uuid "e7de8433-6ff9-4ed3-9b31-17fd70eab7bd")
+			(uuid "f5428a79-4292-4a63-b014-e993dd8f5cf7")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C10")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/72122147-79d0-493a-a2cf-a2658ce38f40"
+					(reference "C25")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C6")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/8dec695b-e9ea-471b-8928-5515ed371095"
+					(reference "C33")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C2")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C14")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C22")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ct_lib:RTT20R039FTE")
-		(at 115.57 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5e1fb94-f850-4e72-be3f-46db5f955c99")
-		(property "Reference" "R3"
-			(at 115.57 118.0295 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39R"
-			(at 115.57 120.4538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 200V 39Ω 750mW ±1% 2010 Chip Resistor - Surface Mount ROHS"
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CQ1007F390JT4E"
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9d2108f-2446-4fc4-87e4-83914a7cc022")
-		)
-		(pin "2"
-			(uuid "59930c4b-1c86-4087-b0f7-c19437711405")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R19")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/92475548-78cf-45c3-8fac-a964336c4100"
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R3")
+					(reference "C9")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R15")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ad41fb03-e7b3-43e0-ad40-899e0e5f6359"
+					(reference "C21")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R23")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/ca44b33c-33be-4bec-b304-e18d91d7f428"
+					(reference "C17")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/150e9824-604d-4c09-b8ae-266a81a82cbc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/33412384-1406-4eb4-964e-23000e7d1e6c"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/3b6321ae-c277-4a85-ba39-5113083e5a70"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/9e8565e3-2b2b-4ae9-9dc2-d047eb764878"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/d3ee14d8-241c-4d82-8bc0-e124d3415234"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e22ecbb4-6dfa-4930-aaa8-757bcf962569"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5/e7ae63ef-f863-4ea8-820b-42ac253b82ab"
-					(reference "R?")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/de7cc02a-5ffe-4b4c-9016-d2f4458c694c"
+					(reference "C29")
 					(unit 1)
 				)
 			)

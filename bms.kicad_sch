@@ -3086,6 +3086,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ct_lib:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capcitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ct_lib:CC0603KRX7R0BB473"
 			(pin_numbers
 				(hide yes)
@@ -4648,6 +4802,147 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ct_lib:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Wattage" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -6965,7 +7260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc07dc9-925c-46fe-a15b-84a7a12e9b8b")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 339.725 199.1043 0)
 			(effects
 				(font
@@ -7215,7 +7510,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -7236,7 +7531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "109e68aa-637d-4032-9874-0766662a699e")
-		(property "Reference" "C9"
+		(property "Reference" "C6"
 			(at 310.134 195.4218 90)
 			(effects
 				(font
@@ -7416,7 +7711,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C9")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11da7aef-6733-4730-93cf-ec6b0da3c457")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 300.99 220.98 0)
 			(effects
 				(font
@@ -7487,13 +7782,116 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 			(project "untitled"
 				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ct_lib:C")
+		(at 87.63 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37b18bd2-2765-4016-99da-7cb8b7458065")
+		(property "Reference" "U1"
+			(at 89.662 55.9378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 89.662 58.3621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capcitor"
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 91.948 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 92.202 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c7521d7-f080-43d0-95e5-2839624f7d48")
+		)
+		(pin "1"
+			(uuid "7e57251a-6889-449d-bb71-f2b436cd72a9")
+		)
+		(instances
+			(project ""
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7509,7 +7907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c541de-015c-46ec-be84-15c802421f0a")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR01"
 			(at 87.63 46.99 0)
 			(effects
 				(font
@@ -7559,7 +7957,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR022")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7580,7 +7978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fdcf1c6-da20-449e-a2dd-896ba02a28e0")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 307.086 223.774 90)
 			(effects
 				(font
@@ -7760,7 +8158,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7782,7 +8180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75240348-0dc6-43ce-b00e-144b7cdb7260")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 266.192 63.102 0)
 			(effects
 				(font
@@ -7962,7 +8360,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7984,7 +8382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "755bd69c-71af-4434-8df5-741e73fe847e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 281.94 69.85 0)
 			(effects
 				(font
@@ -8034,7 +8432,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ab63f8-3c38-4e57-80c6-a23dabf3ced9")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 283.972 73.7757 0)
 			(effects
 				(font
@@ -8146,7 +8544,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8168,7 +8566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eac2abb-75f1-444a-be1d-eb4faf4f5bb4")
-		(property "Reference" "C8"
+		(property "Reference" "C1"
 			(at 250.952 63.102 0)
 			(effects
 				(font
@@ -8348,7 +8746,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C8")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8370,7 +8768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99058eeb-b36c-49fb-beea-40c22963dff4")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 300.355 210.8778 0)
 			(effects
 				(font
@@ -8445,125 +8843,13 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
 			(project "untitled"
 				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
 					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ct_lib:CC0603KRX7R0BB473")
-		(at 87.63 57.15 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d3686f9-e8e5-4c4d-a6f1-abb3f42a69f9")
-		(property "Reference" "C37"
-			(at 85.09 59.5743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47nF"
-			(at 85.09 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 47nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX7R0BB473"
-			(at 87.63 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "100V"
-			(at 85.09 54.7257 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "0c9b045c-f20e-43ba-b27e-921e18f72656")
-		)
-		(pin "1"
-			(uuid "4ac45bcc-d2a9-4d24-914f-0ac6669516bb")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8578,7 +8864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8253faa-e821-452d-9de6-3e2e732d2ae8")
-		(property "Reference" "FB15"
+		(property "Reference" "FB1"
 			(at 136.398 56.388 90)
 			(effects
 				(font
@@ -8648,7 +8934,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "FB15")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -8669,7 +8955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abca5268-684d-410c-8b54-674c4ba8b6a1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 340.36 242.57 0)
 			(effects
 				(font
@@ -8719,7 +9005,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8740,7 +9026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adc40f4d-f171-4994-b957-9c1449489388")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 300.99 201.93 0)
 			(effects
 				(font
@@ -8790,242 +9076,13 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 			(project "untitled"
 				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 146.05 63.5 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6a2535e-3517-413f-b1c1-210fef83cf4d")
-		(property "Reference" "R32"
-			(at 144.78 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 146.05 63.5 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 146.05 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5907585"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1000TCE"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "100Ω"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5487861b-8c49-42b3-b587-9b51d512f9e8")
-		)
-		(pin "1"
-			(uuid "c37e73ba-4834-45c8-839b-c06d53e05ca1")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9041,7 +9098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca890b25-9d7b-44df-a0e9-8b0e92ebabe6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 281.94 85.09 0)
 			(effects
 				(font
@@ -9091,7 +9148,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9113,7 +9170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d03d2119-4774-495f-b85a-875cf91b401b")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 283.972 58.5357 0)
 			(effects
 				(font
@@ -9203,7 +9260,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9225,7 +9282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1237cc3-53db-417d-b0c8-449c28393945")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 273.05 54.4139 90)
 			(effects
 				(font
@@ -9431,7 +9488,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9516,6 +9573,107 @@
 		)
 	)
 	(symbol
+		(lib_id "ct_lib:R")
+		(at 146.05 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed962aa7-3e91-4ffd-b35a-96f533c4eef3")
+		(property "Reference" "R1"
+			(at 146.05 58.3395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 146.05 60.7638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 150.114 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "305984de-4f25-431c-ba7d-a0cd0c0c6de8")
+		)
+		(pin "1"
+			(uuid "b1aade05-0db0-41ce-abe4-4b7a8687accb")
+		)
+		(instances
+			(project ""
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "L99BM114-TR_1")
 		(lib_id "ct_lib:L99BM114-TR")
 		(at 184.15 110.49 0)
@@ -9526,7 +9684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f20f6414-09be-4719-befc-a42da4b6b5ce")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 184.785 55.5943 0)
 			(effects
 				(font
@@ -9776,7 +9934,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9798,7 +9956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3dfdac1-425f-4bcd-912c-207d55e46a97")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 314.452 229.472 0)
 			(effects
 				(font
@@ -9978,7 +10136,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10000,7 +10158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d21eac-5fce-44c3-8450-d97d105b0072")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 258.572 63.102 0)
 			(effects
 				(font
@@ -10180,7 +10338,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10201,7 +10359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f63f4e69-eda9-4c07-b40a-fbe4a3d2f1cb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 312.42 241.3 0)
 			(effects
 				(font
@@ -10251,7 +10409,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9af81e1-7bf9-4a7b-a213-2d794c4d23ff")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 273.05 69.6539 90)
 			(effects
 				(font
@@ -10479,7 +10637,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10487,278 +10645,6 @@
 				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
 					(reference "R?")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 128.27 137.16)
-		(size 25.4 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "150e9824-604d-4c09-b8ae-266a81a82cbc")
-		(property "Sheetname" "Cell Sense2"
-			(at 115.824 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "cell_sense.kicad_sch"
-			(at 101.346 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SENSE-" input
-			(at 153.67 152.4 0)
-			(uuid "7df886fe-7975-4a65-aeda-957bfd9cb347")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C+" input
-			(at 128.27 142.24 180)
-			(uuid "a0bf9d12-c18e-4bcc-9017-fffe6b3c830b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SENSE+" input
-			(at 153.67 147.32 0)
-			(uuid "3b93c5bb-cc23-4c47-9bbd-9f2daa4c2e49")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C-" input
-			(at 128.27 144.78 180)
-			(uuid "960fdeb1-c1e5-414f-9d12-2a61637ab025")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SOURCE" input
-			(at 153.67 149.86 0)
-			(uuid "139c998a-67cc-43f8-a4d5-dfb59c5be1ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BAL" input
-			(at 153.67 144.78 0)
-			(uuid "2be9d79c-e65f-4b63-be1b-7c98aa3edae5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENSE_NEXT" input
-			(at 153.67 139.7 0)
-			(uuid "346c3c41-438a-4317-9a16-f5d18cdd748b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C_NEXT" input
-			(at 128.27 139.7 180)
-			(uuid "3710855e-f35e-48b9-9064-5a0765803a97")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SOURCE_NEXT" input
-			(at 153.67 142.24 0)
-			(uuid "d4d1f030-a759-48e6-aec1-eae8928e8d0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(page "5")
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 128.27 154.94)
-		(size 25.4 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "33412384-1406-4eb4-964e-23000e7d1e6c")
-		(property "Sheetname" "Cell Sense1"
-			(at 115.824 168.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "cell_sense.kicad_sch"
-			(at 101.346 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SENSE-" input
-			(at 153.67 170.18 0)
-			(uuid "d9b92d3a-784e-4b60-a251-c009d15e9057")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C+" input
-			(at 128.27 160.02 180)
-			(uuid "a524bebb-3990-4cda-be9b-95eae4918d2b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SENSE+" input
-			(at 153.67 165.1 0)
-			(uuid "8d78aeca-cccf-4159-b3ef-485259a589d1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C-" input
-			(at 128.27 162.56 180)
-			(uuid "52832546-4c2a-4a5b-b2eb-da3cf64f047b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SOURCE" input
-			(at 153.67 167.64 0)
-			(uuid "d65f736e-42a6-467d-aadf-09bc9dd13a4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BAL" input
-			(at 153.67 162.56 0)
-			(uuid "cb77e1df-4186-4f78-9ff7-f2d2fa392a8c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENSE_NEXT" input
-			(at 153.67 157.48 0)
-			(uuid "c1b3fe3f-1e25-44ce-80ce-a8f477b7015a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C_NEXT" input
-			(at 128.27 157.48 180)
-			(uuid "bdee038b-c5d6-41a9-a368-9ab4d074f845")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SOURCE_NEXT" input
-			(at 153.67 160.02 0)
-			(uuid "5bc0e909-5a0e-4688-a859-b0ed2b4895e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(page "4")
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
-					(page "7")
 				)
 			)
 		)
@@ -10777,7 +10663,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3b6321ae-c277-4a85-ba39-5113083e5a70")
+		(uuid "72122147-79d0-493a-a2cf-a2658ce38f40")
 		(property "Sheetname" "Cell Sense4"
 			(at 115.824 114.808 0)
 			(effects
@@ -10798,7 +10684,7 @@
 		)
 		(pin "SENSE-" input
 			(at 153.67 116.84 0)
-			(uuid "c5957ad4-77be-4888-92d8-7ee7547d696f")
+			(uuid "6c999dfe-f145-48d2-beaa-1c0fbf6d375b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +10694,7 @@
 		)
 		(pin "C+" input
 			(at 128.27 106.68 180)
-			(uuid "e9f6cc15-cee5-4955-9545-3b3d53dc3991")
+			(uuid "8e6d1a07-107f-410a-9314-3eb34ac41109")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10704,7 @@
 		)
 		(pin "SENSE+" input
 			(at 153.67 111.76 0)
-			(uuid "19d7450c-554d-40b2-9c5c-3cc9562a18a4")
+			(uuid "c2814205-ba65-4a32-b050-e16b33d1a32a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +10714,7 @@
 		)
 		(pin "C-" input
 			(at 128.27 109.22 180)
-			(uuid "50dc4e55-2090-494b-b646-841d0001f002")
+			(uuid "cbfb3b97-20f9-4470-aeca-588ca167e8d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10838,7 +10724,7 @@
 		)
 		(pin "SOURCE" input
 			(at 153.67 114.3 0)
-			(uuid "db41d3cc-36db-4683-bd74-b622f43a70b5")
+			(uuid "4d4a6c22-e73f-40d0-b8d7-008e2640514f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10734,7 @@
 		)
 		(pin "BAL" input
 			(at 153.67 109.22 0)
-			(uuid "7a058e3e-5e69-4fec-8db5-ff7ed31459e4")
+			(uuid "f4bf2924-9e31-4f61-a91e-9de3b3fa6a54")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +10744,7 @@
 		)
 		(pin "SENSE_NEXT" input
 			(at 153.67 104.14 0)
-			(uuid "42e313c2-5bef-45e2-9203-9658e3ab36e0")
+			(uuid "38b9293e-b617-4da6-af05-f1abe4fd4710")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10754,7 @@
 		)
 		(pin "C_NEXT" input
 			(at 128.27 104.14 180)
-			(uuid "fd492085-27c3-4a3f-92a9-c0d796df7a6f")
+			(uuid "05f7a57b-9376-443e-be2c-04f6ae87f812")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10764,7 @@
 		)
 		(pin "SOURCE_NEXT" input
 			(at 153.67 106.68 0)
-			(uuid "636f8557-defa-4ee8-95ea-9f7215473ba8")
+			(uuid "5076867a-b1f4-48bf-880a-8ae23a9f3a8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10892,8 +10778,265 @@
 					(page "7")
 				)
 			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+		)
+	)
+	(sheet
+		(at 128.27 66.04)
+		(size 25.4 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8dec695b-e9ea-471b-8928-5515ed371095")
+		(property "Sheetname" "Cell Sense6"
+			(at 115.824 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cell_sense.kicad_sch"
+			(at 101.346 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SENSE-" input
+			(at 153.67 81.28 0)
+			(uuid "6432c1ce-3ff0-4666-adbf-1e0da84acf4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C+" input
+			(at 128.27 71.12 180)
+			(uuid "a155573a-365b-4ae7-a27f-7af40adceb12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE+" input
+			(at 153.67 76.2 0)
+			(uuid "f6afe823-7318-429a-ab77-019824af453c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C-" input
+			(at 128.27 73.66 180)
+			(uuid "72791bb5-fca6-4487-9107-31f0c69ce0e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 153.67 78.74 0)
+			(uuid "42b21a0b-1ddd-4603-aa97-fc4e7387aa29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAL" input
+			(at 153.67 73.66 0)
+			(uuid "c6521329-5bde-4cac-9463-cc6986b0c332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_NEXT" input
+			(at 153.67 68.58 0)
+			(uuid "e77a0560-2884-4acc-9a69-6f283e8e3726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C_NEXT" input
+			(at 128.27 68.58 180)
+			(uuid "598568c6-fac1-42b0-bff1-55df63c4a3e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE_NEXT" input
+			(at 153.67 71.12 0)
+			(uuid "ce68f587-87fa-402e-bec3-21fd98e28e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 154.94)
+		(size 25.4 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92475548-78cf-45c3-8fac-a964336c4100")
+		(property "Sheetname" "Cell Sense1"
+			(at 115.824 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cell_sense.kicad_sch"
+			(at 101.346 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SENSE-" input
+			(at 153.67 170.18 0)
+			(uuid "12e2637a-8bf3-4d57-8e07-d700a3c247cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C+" input
+			(at 128.27 160.02 180)
+			(uuid "1b3011f3-198f-4ff8-83b2-e1a6ce98bcfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE+" input
+			(at 153.67 165.1 0)
+			(uuid "c2176e91-c373-4dbc-9854-3dd27edcbe7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C-" input
+			(at 128.27 162.56 180)
+			(uuid "2cf4f089-6f4a-4c0c-a26a-01f081d006dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 153.67 167.64 0)
+			(uuid "9b818b34-89b2-4890-befb-08df40c2c58c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAL" input
+			(at 153.67 162.56 0)
+			(uuid "5844f0c1-72ca-4da4-92a5-d1ab104c2883")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_NEXT" input
+			(at 153.67 157.48 0)
+			(uuid "ee49a0eb-cef9-4702-bf7f-0338ec6396b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C_NEXT" input
+			(at 128.27 157.48 180)
+			(uuid "2a88de60-b524-4da5-a1ba-98bf974e2e8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE_NEXT" input
+			(at 153.67 160.02 0)
+			(uuid "5856ad72-78d4-44c2-adb9-bc11578a7466")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(page "4")
 				)
 			)
@@ -11049,7 +11192,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "d3ee14d8-241c-4d82-8bc0-e124d3415234")
+		(uuid "ad41fb03-e7b3-43e0-ad40-899e0e5f6359")
 		(property "Sheetname" "Cell Sense3"
 			(at 115.824 132.588 0)
 			(effects
@@ -11070,7 +11213,7 @@
 		)
 		(pin "SENSE-" input
 			(at 153.67 134.62 0)
-			(uuid "359d60bc-180e-4915-b99b-08eb6a6a41ac")
+			(uuid "6e13415e-93f8-4819-9336-e96dcffcd17f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +11223,7 @@
 		)
 		(pin "C+" input
 			(at 128.27 124.46 180)
-			(uuid "03b6b94f-e996-4597-8c84-cd3f3cab126c")
+			(uuid "d6c6e4ef-5bd8-441d-a195-cfeb22bf0c2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +11233,7 @@
 		)
 		(pin "SENSE+" input
 			(at 153.67 129.54 0)
-			(uuid "42f29ceb-2d8b-4b56-bcfe-312eb47d70f2")
+			(uuid "4f5d8e77-cf0d-4b39-b9d8-db59a77667e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11100,7 +11243,7 @@
 		)
 		(pin "C-" input
 			(at 128.27 127 180)
-			(uuid "ff43dd3a-914a-44af-9ec8-c40baf2dd758")
+			(uuid "5acf9e16-d9be-4bb2-8653-75c22867d6cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +11253,7 @@
 		)
 		(pin "SOURCE" input
 			(at 153.67 132.08 0)
-			(uuid "4860f1ea-9420-4d49-89f0-c24faee97731")
+			(uuid "65e38c2c-8aba-432c-bd97-8adc6df7ebc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11120,7 +11263,7 @@
 		)
 		(pin "BAL" input
 			(at 153.67 127 0)
-			(uuid "a37c9c56-e488-47cd-84a5-32fe50da08f4")
+			(uuid "12674e7b-04c6-4e8b-913d-2fff592130da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +11273,7 @@
 		)
 		(pin "SENSE_NEXT" input
 			(at 153.67 121.92 0)
-			(uuid "38fe4c81-35da-4e20-b0a6-3855d5b34720")
+			(uuid "59727616-bbc6-4553-be90-90b5d3c0bed5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11283,7 @@
 		)
 		(pin "C_NEXT" input
 			(at 128.27 121.92 180)
-			(uuid "0c40aeb8-2e1d-4bc6-8769-17371391fa08")
+			(uuid "ff7c3571-8398-42a2-b4d1-04ba4d004453")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,7 +11293,7 @@
 		)
 		(pin "SOURCE_NEXT" input
 			(at 153.67 124.46 0)
-			(uuid "6debef2a-3891-493b-956f-61185a48cb6d")
+			(uuid "45e4233e-322a-4d3e-b0dd-738f737b2931")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,8 +11307,134 @@
 					(page "6")
 				)
 			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+		)
+	)
+	(sheet
+		(at 128.27 137.16)
+		(size 25.4 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca44b33c-33be-4bec-b304-e18d91d7f428")
+		(property "Sheetname" "Cell Sense2"
+			(at 115.824 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cell_sense.kicad_sch"
+			(at 101.346 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SENSE-" input
+			(at 153.67 152.4 0)
+			(uuid "771236aa-63c4-47bb-a5e2-38b09493f5fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C+" input
+			(at 128.27 142.24 180)
+			(uuid "6c8d40d7-6574-4d80-ab5a-52dfb08947c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE+" input
+			(at 153.67 147.32 0)
+			(uuid "5540621a-71a4-40d6-902a-8e2779bd9e32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C-" input
+			(at 128.27 144.78 180)
+			(uuid "d6527f6a-6e58-4624-b5e0-c970d021eb43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE" input
+			(at 153.67 149.86 0)
+			(uuid "855e4cf8-7a2c-48d9-a291-04641b22cad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAL" input
+			(at 153.67 144.78 0)
+			(uuid "427cd0c9-24ec-4d4c-83de-dff158712200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_NEXT" input
+			(at 153.67 139.7 0)
+			(uuid "39755c26-29d6-44d5-8c2d-f9ddf07521bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C_NEXT" input
+			(at 128.27 139.7 180)
+			(uuid "b6c81ee5-1583-4d00-9f9c-b912ffad6b1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOURCE_NEXT" input
+			(at 153.67 142.24 0)
+			(uuid "d4671372-a28d-45f7-9bd2-1dc03c10e3e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(page "5")
 				)
 			)
@@ -11185,7 +11454,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e22ecbb4-6dfa-4930-aaa8-757bcf962569")
+		(uuid "de7cc02a-5ffe-4b4c-9016-d2f4458c694c")
 		(property "Sheetname" "Cell Sense5"
 			(at 115.824 97.028 0)
 			(effects
@@ -11206,7 +11475,7 @@
 		)
 		(pin "SENSE-" input
 			(at 153.67 99.06 0)
-			(uuid "9b282b06-ec7b-4b19-8ec8-47c4e0d9e9b3")
+			(uuid "20b9c83e-4756-4ccb-93be-df947456bc41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11485,7 @@
 		)
 		(pin "C+" input
 			(at 128.27 88.9 180)
-			(uuid "b505d3ef-8051-43e5-a5f6-462cf777f093")
+			(uuid "dc5cbe3f-4383-4b1c-b36a-f59cdeb2d3ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11495,7 @@
 		)
 		(pin "SENSE+" input
 			(at 153.67 93.98 0)
-			(uuid "77929158-6e27-4b48-9d29-a59d6f1eb4b7")
+			(uuid "8b9c3425-b694-4ccd-9650-e8a13dfba0e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,7 +11505,7 @@
 		)
 		(pin "C-" input
 			(at 128.27 91.44 180)
-			(uuid "560a5e8e-d79c-4cad-bce1-7753d07ae450")
+			(uuid "ec4485e2-9a19-46ba-82d5-081e0adb4f08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +11515,7 @@
 		)
 		(pin "SOURCE" input
 			(at 153.67 96.52 0)
-			(uuid "22922042-ff42-4439-830d-4dd3228b5d15")
+			(uuid "d17a998b-61e0-40d7-98d5-2308317c6b25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,7 +11525,7 @@
 		)
 		(pin "BAL" input
 			(at 153.67 91.44 0)
-			(uuid "c4b847e1-6363-4045-9b90-40d1ae434a0b")
+			(uuid "84783c8e-1b6e-452f-bbef-bc926aae4f39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,7 +11535,7 @@
 		)
 		(pin "SENSE_NEXT" input
 			(at 153.67 86.36 0)
-			(uuid "e37f8fcc-b9c7-4e52-9696-f4f142eb81dd")
+			(uuid "6e23b94b-2010-4ad1-a174-2da627050a93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11276,7 +11545,7 @@
 		)
 		(pin "C_NEXT" input
 			(at 128.27 86.36 180)
-			(uuid "90ba02d2-9cc5-483b-b1a2-3aab752d5e4f")
+			(uuid "1fb70d21-c19b-4229-858c-daf9ab5a4b1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11555,7 @@
 		)
 		(pin "SOURCE_NEXT" input
 			(at 153.67 88.9 0)
-			(uuid "977ecb1e-f8fd-4f02-a62f-82f5f35bb2a6")
+			(uuid "5afd635b-eabd-4e93-a9e8-6b1635288f98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11298,147 +11567,6 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(page "8")
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 128.27 66.04)
-		(size 25.4 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e7ae63ef-f863-4ea8-820b-42ac253b82ab")
-		(property "Sheetname" "Cell Sense6"
-			(at 115.824 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "cell_sense.kicad_sch"
-			(at 101.346 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SENSE-" input
-			(at 153.67 81.28 0)
-			(uuid "cce1a9c1-3120-427f-b587-9a1bae47e981")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C+" input
-			(at 128.27 71.12 180)
-			(uuid "9305a6f6-f0d5-480b-a8e5-b675834ada86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SENSE+" input
-			(at 153.67 76.2 0)
-			(uuid "2e340a67-f930-4a5a-919b-6065086cbed2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C-" input
-			(at 128.27 73.66 180)
-			(uuid "811e56a9-d5d7-489e-a674-bc73cef09f36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SOURCE" input
-			(at 153.67 78.74 0)
-			(uuid "4c868a65-793a-4233-8843-257974e7cf02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BAL" input
-			(at 153.67 73.66 0)
-			(uuid "535c06f7-ccb0-40c1-a468-634bfa8ab3c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENSE_NEXT" input
-			(at 153.67 68.58 0)
-			(uuid "ae0eb5c0-85a4-44d8-a2ae-094c35ac26c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "C_NEXT" input
-			(at 128.27 68.58 180)
-			(uuid "bbeb3d3c-0a9e-414f-ad87-fc6a12314efb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SOURCE_NEXT" input
-			(at 153.67 71.12 0)
-			(uuid "15813609-0df8-41b4-8010-294d403162cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(page "9")
-				)
-			)
-			(project "untitled"
-				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
-					(page "2")
 				)
 			)
 		)

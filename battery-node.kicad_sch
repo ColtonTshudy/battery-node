@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2e6fa66d-cf61-4130-94fd-f989bd2a39c4")
-		(property "Sheetname" "Untitled Sheet"
+		(property "Sheetname" "BMS"
 			(at 129.54 57.7084 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "bms.kicad_sch"
 			(at 129.54 104.7246 0)
 			(effects
 				(font

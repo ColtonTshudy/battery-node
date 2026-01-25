@@ -7219,6 +7219,12 @@
 					(unit 2)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "U?")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7414,6 +7420,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7476,6 +7488,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7542,6 +7560,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7737,6 +7761,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7936,6 +7966,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7999,6 +8035,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8105,6 +8147,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8304,6 +8352,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8392,6 +8446,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -8501,6 +8561,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8586,6 +8652,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "FB?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8651,6 +8723,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8713,6 +8791,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8939,6 +9023,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9002,6 +9092,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9108,6 +9204,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9333,6 +9435,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9396,6 +9504,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9666,6 +9780,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9859,6 +9979,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10058,6 +10184,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10120,6 +10252,12 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10345,6 +10483,12 @@
 					(unit 1)
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet
@@ -10474,6 +10618,11 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(page "5")
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(page "6")
 				)
 			)
 		)
@@ -10607,6 +10756,11 @@
 					(page "4")
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(page "7")
+				)
+			)
 		)
 	)
 	(sheet
@@ -10736,6 +10890,11 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(page "7")
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(page "4")
 				)
 			)
 		)
@@ -10869,6 +11028,11 @@
 					(page "3")
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(page "8")
+				)
+			)
 		)
 	)
 	(sheet
@@ -10998,6 +11162,11 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(page "6")
+				)
+			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(page "5")
 				)
 			)
 		)
@@ -11131,6 +11300,11 @@
 					(page "8")
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(page "3")
+				)
+			)
 		)
 	)
 	(sheet
@@ -11262,6 +11436,17 @@
 					(page "9")
 				)
 			)
+			(project "untitled"
+				(path "/3ef5c4c8-c564-4907-8c1e-01847a66f8e5"
+					(page "2")
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

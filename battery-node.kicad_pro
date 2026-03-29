@@ -617,34 +617,6 @@
     [
       "2e6fa66d-cf61-4130-94fd-f989bd2a39c4",
       "BMS"
-    ],
-    [
-      "9e8565e3-2b2b-4ae9-9dc2-d047eb764878",
-      "Cell Sense"
-    ],
-    [
-      "92475548-78cf-45c3-8fac-a964336c4100",
-      "Cell Sense1"
-    ],
-    [
-      "ca44b33c-33be-4bec-b304-e18d91d7f428",
-      "Cell Sense2"
-    ],
-    [
-      "ad41fb03-e7b3-43e0-ad40-899e0e5f6359",
-      "Cell Sense3"
-    ],
-    [
-      "72122147-79d0-493a-a2cf-a2658ce38f40",
-      "Cell Sense4"
-    ],
-    [
-      "de7cc02a-5ffe-4b4c-9016-d2f4458c694c",
-      "Cell Sense5"
-    ],
-    [
-      "8dec695b-e9ea-471b-8928-5515ed371095",
-      "Cell Sense6"
     ]
   ],
   "text_variables": {}

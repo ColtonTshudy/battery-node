@@ -616,11 +616,15 @@
     ],
     [
       "2e6fa66d-cf61-4130-94fd-f989bd2a39c4",
-      "BMS"
+      "AFE"
     ],
     [
       "924d84ff-4e06-47a1-b086-4a1bbb55dec8",
-      "Power Stage"
+      "CHARGE_DISCHARGE_CONTROL"
+    ],
+    [
+      "a0e287d3-b915-410a-86a7-dfb59e4205a2",
+      "ISOLATED_COMMS"
     ]
   ],
   "text_variables": {}

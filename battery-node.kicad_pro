@@ -641,17 +641,17 @@
     "top_level_sheets": [
       {
         "filename": "battery-node.kicad_sch",
-        "name": "battery-node",
+        "name": "MAIN",
         "uuid": "0531bb65-44fe-462a-8fbf-92fb22c9abe0"
       }
     ],
-    "used_designators": "#PWR35,#PWR53-55,D19,C12,C21-22,C27-29,TP15-19,U8",
+    "used_designators": "TP2-3,TP6,J7,R56-57,R61,R63-66,D20,#PWR12,#PWR54,#PWR56-57,JP5",
     "variants": []
   },
   "sheets": [
     [
       "0531bb65-44fe-462a-8fbf-92fb22c9abe0",
-      "battery-node"
+      "MAIN"
     ],
     [
       "2e6fa66d-cf61-4130-94fd-f989bd2a39c4",

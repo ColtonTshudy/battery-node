@@ -1,0 +1,23 @@
+Circuit: * H:\Documents_H\KiCad\Projects\battery-node\simulations\FET Driver rev3.asc
+
+WARNING: Node N003 is floating.
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Apr 03 00:37:56 2026
+Total elapsed time: 0.114 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3980
+traniter = 3933
+tranpoints = 1477
+accept = 1379
+rejected = 98
+matrix size = 36
+fillins = 14
+solver = Normal
+Matrix Compiler1: 3.29 KB object code size  0.5/0.3/[0.3]
+Matrix Compiler2: 3.19 KB object code size  0.2/0.4/[0.2]
+

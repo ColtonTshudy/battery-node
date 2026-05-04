@@ -1,0 +1,21 @@
+Circuit: * H:\Documents_H\KiCad\Projects\battery-node\simulations\Draft5.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Apr 26 12:07:58 2026
+Total elapsed time: 0.066 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2124
+traniter = 2102
+tranpoints = 1052
+accept = 1052
+rejected = 0
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 590 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 715 bytes object code size  0.1/0.1/[0.1]
+

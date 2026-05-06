@@ -645,7 +645,7 @@
         "uuid": "0531bb65-44fe-462a-8fbf-92fb22c9abe0"
       }
     ],
-    "used_designators": "J1-10,R1-140,TP1-22,C1-70,Q1-36,#PWR1-91,D1-15,JP1-7,L1,LED1,U1-12,CN1-4",
+    "used_designators": "D16-17",
     "variants": []
   },
   "sheets": [
@@ -658,68 +658,68 @@
       "AFE"
     ],
     [
-      "cdbef152-92bf-45ee-8d83-fe2acc162c08",
-      "BALANCE"
+      "b4821229-e807-47f6-9ce7-2eb765119d71",
+      "BALANCE2"
     ],
     [
       "a0e287d3-b915-410a-86a7-dfb59e4205a2",
       "ISOLATED_COMMS"
     ],
     [
-      "a284569a-345a-48a0-a6a9-28fe64f14d72",
-      "BALANCE1"
-    ],
-    [
-      "4ddf782f-b503-4a7f-8753-24adbb314c17",
-      "BALANCE2"
-    ],
-    [
-      "7125ad66-5f34-45b2-bb04-425b740fea79",
+      "9a163b4f-8c0b-447e-b0ab-604704dcf10b",
       "BALANCE3"
     ],
     [
-      "219b2d8e-e896-4234-b371-70999a517904",
+      "94160f97-78b3-4cc2-9687-8115032443b0",
       "BALANCE4"
     ],
     [
-      "b4f91a5a-c701-45f6-9f76-2c1a20bcdfc7",
+      "07d47c05-2a31-4eda-93ab-879ca45b97c1",
       "BALANCE5"
     ],
     [
-      "0731640d-bc28-4415-85a7-aac105f8c8ca",
+      "d659851c-955c-460a-ac04-b48cf96b92b2",
       "BALANCE6"
     ],
     [
-      "d5925a5c-77e0-4b21-b2ca-cb65581b804d",
+      "cd4834e0-6ee0-4509-8965-0258f895147d",
       "BALANCE7"
     ],
     [
-      "46a48643-3393-48c8-86c0-8531cf4e3cee",
+      "1a9666c2-5241-4f2e-8643-e7e9373096da",
       "BALANCE8"
     ],
     [
-      "f09fabf4-ed92-4637-b188-be82f83153f6",
+      "05aad7ab-ca57-4ebd-ac28-bd94824ab1d2",
       "BALANCE9"
     ],
     [
-      "7bf445ea-5b9c-4ba4-a5ca-de2f0372f9eb",
+      "dcab879b-c294-4365-99d4-326abcf232ad",
       "BALANCE10"
     ],
     [
-      "d118d6b4-51e1-4fad-a28c-fd9d02832479",
+      "67bc0206-147b-4067-b273-27beeeeafedf",
       "BALANCE11"
     ],
     [
-      "b6899922-bd2d-4c80-8dc3-a3f2d3c4f3ad",
+      "c638b43e-d93e-428b-b28d-4403d4249ef4",
       "BALANCE12"
     ],
     [
-      "15321d65-b44c-4906-a32d-9198167e07ef",
+      "7f6b0471-a1d2-49e6-bc59-18bb12085c94",
       "BALANCE13"
     ],
     [
-      "a9b6951a-5d67-46e0-9a64-ae40f0846c70",
+      "547be1ba-d52d-477b-9a21-5532e63256be",
       "BALANCE14"
+    ],
+    [
+      "1238328a-1363-43db-9a79-f50059febb82",
+      "BALANCE15"
+    ],
+    [
+      "239b64a2-06e7-4702-af14-40febab5b916",
+      "BALANCE16"
     ],
     [
       "5ed4f55b-1488-4427-9d20-f9a6669b64e7",

@@ -12894,7 +12894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01bb56ec-80c6-4cdc-a126-04521ff863a4")
-		(property "Reference" "C33"
+		(property "Reference" "C29"
 			(at 259.588 69.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13112,7 +13112,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C33")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -13397,7 +13397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "075d0245-44b2-4f5a-883e-c0505225800e")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 308.61 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13457,7 +13457,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -13475,7 +13475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09415e85-96d8-4959-9e6a-43dea274fb60")
-		(property "Reference" "C34"
+		(property "Reference" "C30"
 			(at 263.652 171.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13693,7 +13693,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C34")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -13789,7 +13789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14927e0f-793a-499e-9ef7-e0e7abf7fd4a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 392.43 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13849,7 +13849,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -13944,7 +13944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18ecbebc-fbcb-4f2b-840a-1ab8fda1a894")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 281.94 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14005,7 +14005,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -14023,7 +14023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f3f52e-c249-4118-8e01-e8c1eb8e0b99")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 271.78 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -14083,7 +14083,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -14635,7 +14635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2986d3a9-6be0-4063-beb1-d3027a456b67")
-		(property "Reference" "C32"
+		(property "Reference" "C28"
 			(at 228.092 171.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14853,7 +14853,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C32")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -14956,7 +14956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34553233-f61a-40da-a9b9-7b9f4ac17187")
-		(property "Reference" "C30"
+		(property "Reference" "C26"
 			(at 211.582 69.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15174,7 +15174,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C30")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -15192,7 +15192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bed9eaa-2219-40c5-8202-8fdcd86641b2")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 261.62 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15252,7 +15252,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -15538,7 +15538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e05d74-413e-4600-8dd3-e4f843c48901")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15599,7 +15599,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -15616,7 +15616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47fe6295-1ead-4f25-967d-0f1113b2ede3")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 256.54 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15677,7 +15677,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15695,7 +15695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "497add5b-6c7d-4e79-a6d4-1b95d40f510a")
-		(property "Reference" "C28"
+		(property "Reference" "C24"
 			(at 156.591 70.6585 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15814,7 +15814,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C28")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -15945,7 +15945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae31b25-4990-4acc-bea9-329ccb351a69")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 212.09 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -16005,7 +16005,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -16023,7 +16023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c904598-bb6d-4c56-83a4-683f086f58bf")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 52.07 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -16083,7 +16083,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16101,7 +16101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51bcf2f8-15a4-427b-8a89-1fafdf30a900")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 226.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16161,7 +16161,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -16256,7 +16256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57d789ac-f7b4-4057-a044-e62ab4ba5055")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 247.2533 187.6255 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16362,7 +16362,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -16380,7 +16380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "586d8f0f-dfe7-4552-828d-21172ca620d9")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 295.91 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16440,7 +16440,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -16458,7 +16458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58732225-39fb-47d3-80e6-9ed72e681cdb")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 84.6933 61.8955 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16543,7 +16543,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -16561,7 +16561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59962416-3716-409e-ac1a-f61a6d6fbc36")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 193.04 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16622,7 +16622,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -16640,7 +16640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599916e4-646a-441b-b3c2-79dbe3eea05f")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 243.84 59.3555 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16721,7 +16721,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -16739,7 +16739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6141b93d-cee8-4b9c-b66a-fd2ee5f7dd00")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 314.96 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16800,7 +16800,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -16818,7 +16818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66452efc-1b24-4bc3-861b-050a990c1a20")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 256.54 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -16879,7 +16879,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -17432,7 +17432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71fcd343-4e73-44be-a660-81351945f0a6")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 255.27 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -17492,7 +17492,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -17510,7 +17510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "789370fc-e9f0-42b1-a4ca-84935216eccd")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 231.14 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17570,7 +17570,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -17588,7 +17588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8073e876-7525-43e8-9b09-7fd3cfbf7d24")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 353.06 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -17648,7 +17648,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -17801,7 +17801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b237ac-f095-4cdb-adce-6aec615b40e1")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 231.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -17861,7 +17861,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17956,7 +17956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "835d52b8-fd88-49d1-a97d-4fbf68d46b2b")
-		(property "Reference" "C39"
+		(property "Reference" "C35"
 			(at 297.942 68.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18174,7 +18174,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C39")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -18192,7 +18192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "838267d4-0214-46e3-a3b3-3c8f039f3312")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18252,7 +18252,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18270,7 +18270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83eecfeb-a9bf-48e4-a527-60f18dccf007")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 243.84 105.0755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18375,7 +18375,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -18393,7 +18393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "893768f2-be8b-4e5d-a7df-bfc13e7f7e6b")
-		(property "Reference" "C38"
+		(property "Reference" "C34"
 			(at 292.862 68.182 0)
 			(hide yes)
 			(show_name no)
@@ -18614,7 +18614,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C38")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -18632,7 +18632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89b6feeb-67a1-419b-8a28-e39b1c39b7a7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 26.67 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -18692,7 +18692,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -18710,7 +18710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a635e77-42b2-461b-8c85-692fb5106f73")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 36.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18771,7 +18771,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18789,7 +18789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eff2e4a-d674-4ff0-8e98-516b4fda0768")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 229.87 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -18849,7 +18849,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -18867,7 +18867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f5efb56-ee96-4061-ab5d-de2297d33222")
-		(property "Reference" "C22"
+		(property "Reference" "C18"
 			(at 40.132 72.5057 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18975,7 +18975,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C22")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -18993,7 +18993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb104da-9bd0-4d26-81e0-50f9c736eab1")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 278.13 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -19054,7 +19054,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -19263,7 +19263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "921feb07-4261-49d8-b1f0-7db0def0de14")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 94.234 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19481,7 +19481,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C25")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -19576,7 +19576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b9683b-4d23-4d6e-a46f-e171aea52d52")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 205.74 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19637,7 +19637,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -19655,7 +19655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9672c211-c02d-4b02-a3f8-51b6a8ec4ee1")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 203.2 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -19716,7 +19716,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -19814,7 +19814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9933b19c-2282-4ca6-ba61-94fdc9aac9ac")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 295.91 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -19875,7 +19875,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -19892,7 +19892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aa0d003-fb89-491c-8f81-df71c954c1a7")
-		(property "Reference" "C35"
+		(property "Reference" "C31"
 			(at 270.51 188.1998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20107,7 +20107,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C35")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -20125,7 +20125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f6647c4-d190-4e1f-a37c-f7d2c1a7c57d")
-		(property "Reference" "C29"
+		(property "Reference" "C25"
 			(at 203.962 69.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20343,7 +20343,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C29")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -20628,7 +20628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab5cf865-4f0b-435c-8c4a-9456b729bc2b")
-		(property "Reference" "C31"
+		(property "Reference" "C27"
 			(at 217.424 188.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20843,7 +20843,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C31")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -20861,7 +20861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada1e3ed-e777-45ae-8ecd-01f3da63bf83")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 144.272 73.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21079,7 +21079,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C27")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -21097,7 +21097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae557ebe-bf96-48ca-8a60-58fa11662a4b")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 328.93 176.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21206,7 +21206,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -21306,7 +21306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4dcd755-7ef5-44f6-afa3-7f5572377754")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 392.43 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -21366,7 +21366,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -21384,7 +21384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a3d8d9-05c7-4715-a306-aa33b30cf381")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 52.07 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -21444,7 +21444,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -21883,7 +21883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2cea4c3-4ed0-4188-9ce9-984895dc32e7")
-		(property "Reference" "C37"
+		(property "Reference" "C33"
 			(at 287.782 68.182 0)
 			(hide yes)
 			(show_name no)
@@ -22104,7 +22104,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C37")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -22122,7 +22122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cabe6edf-d702-49f8-81b8-81151031b07e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -22182,7 +22182,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -22734,7 +22734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd7304ca-5642-4d41-8ad6-1b6fab5518bb")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 402.082 118.1678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22804,7 +22804,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -23168,7 +23168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc232dd-1bcd-4960-8450-385edfee47e8")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 332.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -23228,7 +23228,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -23246,7 +23246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d255298e-0aa9-42bb-abd0-6085dc5272a2")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 297.18 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -23307,7 +23307,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -23592,7 +23592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2c6806-13a5-4298-8857-801db17608aa")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 131.572 73.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23810,7 +23810,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -23828,7 +23828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dadca4ea-b709-4810-8f28-eb384ffb3e49")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 82.55 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -23888,7 +23888,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -23906,7 +23906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd8e4c81-843e-4379-aa6a-5749a3d5876c")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 243.84 244.7755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24087,7 +24087,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -24105,7 +24105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de818f55-e5a5-49a3-afd9-7a213b3d9f48")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 232.41 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -24165,7 +24165,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -24451,7 +24451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2653917-f12a-4e22-88cb-a2ef5fecc7d1")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 257.81 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -24511,7 +24511,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -24529,7 +24529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e598da-ce01-4b6c-9470-7c9b3b6cc4bb")
-		(property "Reference" "C23"
+		(property "Reference" "C19"
 			(at 50.292 72.5057 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24637,7 +24637,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C23")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -24655,7 +24655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6845d09-af53-45a9-a653-909be21cd95e")
-		(property "Reference" "C36"
+		(property "Reference" "C32"
 			(at 282.702 68.182 0)
 			(hide yes)
 			(show_name no)
@@ -24876,7 +24876,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C36")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -24974,7 +24974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f14adef0-10c0-488e-a01a-d86486cb1c02")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -25034,7 +25034,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -25052,7 +25052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f457067c-d3a6-4fe2-aa56-4e69977af3f3")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 220.98 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -25112,7 +25112,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -25130,7 +25130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4debff8-400d-40e5-bf88-604755e8bd62")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 303.53 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -25191,7 +25191,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -25209,7 +25209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77d4951-94b0-4daa-ae23-ece7298dd12b")
-		(property "Reference" "U10"
+		(property "Reference" "U12"
 			(at 298.0533 107.6155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25292,7 +25292,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "U10")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -25576,7 +25576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff0fd25a-a130-46ab-beaa-a2f0f7d10bca")
-		(property "Reference" "C24"
+		(property "Reference" "C20"
 			(at 60.452 72.5057 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25684,7 +25684,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "C24")
+					(reference "C20")
 					(unit 1)
 				)
 			)

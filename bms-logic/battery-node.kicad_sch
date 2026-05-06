@@ -5088,6 +5088,26 @@
 		)
 		(uuid "c1395ea4-8ce4-4406-8ada-514f0be8161e")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(polyline
+			(pts
+				(xy 295.91 198.12) (xy 295.91 262.89) (xy 172.72 262.89) (xy 172.72 198.12)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 0 0 0 0.1490196078)
+			)
+			(uuid "3e385d5f-adde-48d9-948d-57103b8a187b")
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 238.76 134.62 0)
@@ -5303,14 +5323,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 127 171.7731 0)
+		(property "Value" "3V3"
+			(at 125.603 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5444,9 +5465,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28991c15-1ca2-4279-be12-fb05da11edb1")
 		(property "Reference" "R7"
@@ -6212,10 +6233,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
+		(in_bom no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49238ad6-9611-4df5-9b0e-96c63a115141")
 		(property "Reference" "JP1"
@@ -6311,15 +6332,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 241.3 147.955 90)
+		(property "Value" "3V3"
+			(at 239.903 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6691,9 +6712,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "510407e1-6040-43ce-be9a-12b21296fad5")
 		(property "Reference" "J1"
@@ -6874,9 +6895,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d24579-3e58-4981-b9f5-8397d2b7e51f")
 		(property "Reference" "R5"
@@ -8226,9 +8247,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d679615c-3461-4c68-86af-8fe8681641f0")
 		(property "Reference" "R9"
@@ -8587,14 +8608,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 203.2 87.3069 0)
+		(property "Value" "3V3"
+			(at 204.597 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8917,9 +8939,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e4c81e-c27e-48c0-8717-5acd7af4c2c2")
 		(property "Reference" "R10"
@@ -9263,9 +9285,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8dfaecd-70e5-4f5f-a09d-cf4e87504739")
 		(property "Reference" "R6"
@@ -9532,9 +9554,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f934a4bb-fa7f-40c4-b57b-79b1a6707731")
 		(property "Reference" "R8"

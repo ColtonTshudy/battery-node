@@ -246,17 +246,13 @@
         "flipBoard": false,
         "layers": [
           0,
-          1,
           2,
-          3,
+          4,
+          6,
           8,
-          9,
           10,
-          11,
           12,
-          13,
           14,
-          15,
           16,
           17,
           18,
@@ -373,6 +369,7 @@
           "vias",
           "footprint_text",
           "footprint_anchors",
+          "ratsnest",
           "grid",
           "footprints_front",
           "footprints_back",
@@ -809,7 +806,7 @@
         "uuid": "0531bb65-44fe-462a-8fbf-92fb22c9abe0"
       }
     ],
-    "used_designators": "#PWR7-8,#PWR38-39,JP5,R33,TP10-11,TP23",
+    "used_designators": "CN1,CN5,#PWR41,#PWR61,#PWR92-93,P1-4,U2",
     "variants": []
   },
   "sheets": [

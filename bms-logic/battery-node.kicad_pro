@@ -806,7 +806,7 @@
         "uuid": "0531bb65-44fe-462a-8fbf-92fb22c9abe0"
       }
     ],
-    "used_designators": "CN1,CN5,#PWR41,#PWR61,#PWR92-93,P1-4,U2",
+    "used_designators": "CN1-6,#PWR18,#PWR41,#PWR61,#PWR75,#PWR77-78,#PWR92-101,H1-2,P1-4,U2,C51,C56-59",
     "variants": []
   },
   "sheets": [
@@ -887,16 +887,8 @@
       "THERMISTOR_HEADER"
     ],
     [
-      "524a3c24-e1d4-440c-a5de-5fa78cca8f92",
+      "9f96e44b-6db3-4bce-bd80-4570878078bb",
       "THERMISTOR_HEADER1"
-    ],
-    [
-      "14facb8c-7913-48f0-8c95-94965f8c72e2",
-      "THERMISTOR_HEADER2"
-    ],
-    [
-      "a9e3e829-22d3-464f-b954-379e2fb6907f",
-      "THERMISTOR_HEADER3"
     ]
   ],
   "text_variables": {},

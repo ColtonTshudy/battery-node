@@ -1523,7 +1523,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_ZH_S4B-ZR-SM4A-TF_1x04-1MP_P1.50mm_Horizontal"
+			(property "Footprint" "JLCImport:JST_ZH_S4B-ZR-SM4A-TF_1x04-1MP_P1.50mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -16440,7 +16440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S4B-ZR-SM4A-TF_1x04-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "JLCImport:JST_ZH_S4B-ZR-SM4A-TF_1x04-1MP_P1.50mm_Horizontal"
 			(at 388.62 119.38 0)
 			(hide yes)
 			(show_name no)

@@ -1509,7 +1509,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_ZH_S12B-ZR-SM4A-TF_1x12-1MP_P1.50mm_Horizontal"
+			(property "Footprint" "JLCImport:JST_ZH_S12B-ZR-SM4A-TF_1x12-1MP_P1.50mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1900,7 +1900,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_ZH_S8B-ZR-SM4A-TF_1x08-1MP_P1.50mm_Horizontal"
+			(property "Footprint" "JLCImport:JST_ZH_S8B-ZR-SM4A-TF_1x08-1MP_P1.50mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12167,7 +12167,7 @@
 	)
 	(rectangle
 		(start 141.224 22.352)
-		(end 214.63 86.36)
+		(end 214.63 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -13103,6 +13103,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 118.11) (xy 187.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0391c5b6-4d09-4392-a0b6-0bc0e33924b2")
+	)
+	(wire
+		(pts
 			(xy 50.8 95.25) (xy 46.99 95.25)
 		)
 		(stroke
@@ -13150,6 +13160,16 @@
 			(type default)
 		)
 		(uuid "064f4a63-ccde-42ac-919c-6ef47c264d2b")
+	)
+	(wire
+		(pts
+			(xy 181.61 120.65) (xy 187.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bb4c51-dcc1-4dfc-a53d-a9bdf0c7c916")
 	)
 	(wire
 		(pts
@@ -13290,6 +13310,16 @@
 			(type default)
 		)
 		(uuid "0ec8f4e2-44a2-4679-803b-4392769c1f81")
+	)
+	(wire
+		(pts
+			(xy 173.99 46.99) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0fd995-2172-457b-8bf5-615000664408")
 	)
 	(wire
 		(pts
@@ -13523,6 +13553,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 138.43) (xy 181.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e69367d-e123-4b08-925b-5daa082942ab")
+	)
+	(wire
+		(pts
 			(xy 472.44 102.87) (xy 472.44 109.22)
 		)
 		(stroke
@@ -13540,16 +13580,6 @@
 			(type default)
 		)
 		(uuid "1eff789c-3f80-4a7a-b2a2-594561229d8d")
-	)
-	(wire
-		(pts
-			(xy 196.85 130.81) (xy 181.61 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2136167f-df78-447b-a1cb-fda9acba3ddc")
 	)
 	(wire
 		(pts
@@ -13680,16 +13710,6 @@
 			(type default)
 		)
 		(uuid "2938b42b-0260-41eb-bd33-65fda2d0a13c")
-	)
-	(wire
-		(pts
-			(xy 196.85 143.51) (xy 181.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2939551b-669b-4067-815c-6dfc434e4822")
 	)
 	(wire
 		(pts
@@ -14523,6 +14543,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 123.19) (xy 181.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a771c81-0b33-43ce-adfa-0d04ece85d08")
+	)
+	(wire
+		(pts
 			(xy 88.9 339.09) (xy 88.9 340.36)
 		)
 		(stroke
@@ -14713,6 +14743,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 140.97) (xy 181.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69036010-cb30-40d2-9512-8b5c85f43476")
+	)
+	(wire
+		(pts
 			(xy 50.8 209.55) (xy 46.99 209.55)
 		)
 		(stroke
@@ -14890,16 +14930,6 @@
 			(type default)
 		)
 		(uuid "72a94180-9c73-4240-8507-d3bfb79452ec")
-	)
-	(wire
-		(pts
-			(xy 187.96 118.11) (xy 187.96 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b82ba3-d2c8-4fdf-8576-2bbec9effa59")
 	)
 	(wire
 		(pts
@@ -15123,16 +15153,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 146.05) (xy 187.96 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dfa3225-a47b-4ee6-b37f-426d1d3634d1")
-	)
-	(wire
-		(pts
 			(xy 382.27 294.64) (xy 382.27 300.99)
 		)
 		(stroke
@@ -15160,6 +15180,16 @@
 			(type default)
 		)
 		(uuid "8062b679-6b85-410d-a15c-7eb6311b3fb3")
+	)
+	(wire
+		(pts
+			(xy 196.85 130.81) (xy 181.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ba86db-a8c0-4027-a4ad-1090f9756d44")
 	)
 	(wire
 		(pts
@@ -15210,16 +15240,6 @@
 			(type default)
 		)
 		(uuid "8240b3df-527c-417e-b934-dd370e859dd3")
-	)
-	(wire
-		(pts
-			(xy 196.85 125.73) (xy 181.61 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8245e7a7-fcf5-460f-8eb8-de4442280095")
 	)
 	(wire
 		(pts
@@ -15373,16 +15393,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 135.89) (xy 181.61 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be88ce1-2046-4ad8-bc98-56e66bf10b6f")
-	)
-	(wire
-		(pts
 			(xy 88.9 190.5) (xy 85.09 190.5)
 		)
 		(stroke
@@ -15423,6 +15433,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 49.53) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7029eb-2475-49d8-87b8-2f0697b3755c")
+	)
+	(wire
+		(pts
 			(xy 196.85 186.69) (xy 181.61 186.69)
 		)
 		(stroke
@@ -15460,16 +15480,6 @@
 			(type default)
 		)
 		(uuid "91780e4c-e882-4909-8708-3c3f1b60a2fa")
-	)
-	(wire
-		(pts
-			(xy 196.85 123.19) (xy 181.61 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a1fe61-962c-4b6a-8c2f-06ea9c6c8dc8")
 	)
 	(wire
 		(pts
@@ -15643,16 +15653,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 133.35) (xy 181.61 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b21472a-bcca-4f72-8bb3-9f7ae9428100")
-	)
-	(wire
-		(pts
 			(xy 374.65 308.61) (xy 374.65 311.15)
 		)
 		(stroke
@@ -15780,16 +15780,6 @@
 			(type default)
 		)
 		(uuid "a1d83ab9-5d75-4502-9fb0-34877ad98569")
-	)
-	(wire
-		(pts
-			(xy 196.85 128.27) (xy 181.61 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f24322-0fd9-439d-bf11-1d7aa95f3782")
 	)
 	(wire
 		(pts
@@ -16080,6 +16070,16 @@
 			(type default)
 		)
 		(uuid "b6935a60-a2ad-4c71-bbd7-85db3d75f95c")
+	)
+	(wire
+		(pts
+			(xy 196.85 135.89) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a60ae1-2491-4bae-a830-8bf2dc851e51")
 	)
 	(wire
 		(pts
@@ -16393,16 +16393,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 140.97) (xy 181.61 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c6e0c4-241f-484b-bc85-cfc68dd7f9f8")
-	)
-	(wire
-		(pts
 			(xy 313.69 226.06) (xy 313.69 217.17)
 		)
 		(stroke
@@ -16440,16 +16430,6 @@
 			(type default)
 		)
 		(uuid "cbf8885e-99ff-4cfd-a3f1-b704f74dfd41")
-	)
-	(wire
-		(pts
-			(xy 181.61 120.65) (xy 187.96 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc09d341-d44e-47b9-8365-5d0f5cbbc460")
 	)
 	(wire
 		(pts
@@ -16530,16 +16510,6 @@
 			(type default)
 		)
 		(uuid "d32ef90a-49f1-49a7-ba72-671bdb8f3405")
-	)
-	(wire
-		(pts
-			(xy 196.85 138.43) (xy 181.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a420c9-1aea-4a5b-8089-17b628697904")
 	)
 	(wire
 		(pts
@@ -16643,6 +16613,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 125.73) (xy 181.61 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4a5492-e50b-497d-8b19-f21c1961923a")
+	)
+	(wire
+		(pts
 			(xy 46.99 332.74) (xy 46.99 339.09)
 		)
 		(stroke
@@ -16653,16 +16633,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 72.39) (xy 190.5 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd37fa1c-e971-407e-a6bf-b998d1b78d93")
-	)
-	(wire
-		(pts
 			(xy 383.54 274.32) (xy 358.14 274.32)
 		)
 		(stroke
@@ -16670,16 +16640,6 @@
 			(type default)
 		)
 		(uuid "de9d183a-e74c-4332-92a1-81ad1c65d09b")
-	)
-	(wire
-		(pts
-			(xy 187.96 146.05) (xy 187.96 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "decc8931-8a26-47e0-bf1c-eeb77eec58a5")
 	)
 	(wire
 		(pts
@@ -16781,6 +16741,16 @@
 		)
 		(uuid "e799a0f3-3bd6-4f28-9b97-ec0be3122c35")
 	)
+	(wire
+		(pts
+			(xy 187.96 146.05) (xy 187.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2b725b-6d30-453a-8a6f-689b58ff292b")
+	)
 	(polyline
 		(pts
 			(xy 34.036 328.422) (xy 34.036 332.994)
@@ -16790,6 +16760,16 @@
 			(type default)
 		)
 		(uuid "eaf3cdcd-6ea4-461e-ae9f-08246b91f2c5")
+	)
+	(wire
+		(pts
+			(xy 196.85 143.51) (xy 181.61 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd904e7-9451-4822-82af-520c036e9d8c")
 	)
 	(wire
 		(pts
@@ -16863,6 +16843,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 128.27) (xy 181.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9999a6-753a-44f2-b8a1-37f7adb0fad3")
+	)
+	(wire
+		(pts
+			(xy 181.61 146.05) (xy 187.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0328f2b-b096-433c-a319-47b0d8c94d97")
+	)
+	(wire
+		(pts
 			(xy 88.9 76.2) (xy 85.09 76.2)
 		)
 		(stroke
@@ -16873,7 +16873,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 44.45) (xy 190.5 44.45)
+			(xy 173.99 33.02) (xy 190.5 33.02)
 		)
 		(stroke
 			(width 0)
@@ -16993,16 +16993,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 58.42) (xy 190.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98be53e-82e5-4af2-92aa-3959d8f37cbc")
-	)
-	(wire
-		(pts
 			(xy 180.34 320.04) (xy 186.69 320.04)
 		)
 		(stroke
@@ -17070,6 +17060,16 @@
 			(type default)
 		)
 		(uuid "fcc5585e-f59d-4cf5-bb1a-8fcfdd5e0e28")
+	)
+	(wire
+		(pts
+			(xy 196.85 133.35) (xy 181.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf96746-d28d-4252-9ada-ec7302b784bf")
 	)
 	(wire
 		(pts
@@ -18227,6 +18227,16 @@
 		)
 		(uuid "063d10dd-c010-403b-854d-7a7d3fde83fe")
 	)
+	(label "Cell10"
+		(at 196.85 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07bf0dac-21c8-416d-9b2c-ae418e476c71")
+	)
 	(label "CHG_GATE_CTRL"
 		(at 383.54 233.68 180)
 		(effects
@@ -18327,6 +18337,16 @@
 		)
 		(uuid "1ab99968-6eb9-4338-b5a6-413cb74ccb4a")
 	)
+	(label "Cell16"
+		(at 196.85 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b29ca27-06e9-4691-8974-3f7b1ee53301")
+	)
 	(label "CHARGE_PUMP"
 		(at 363.22 220.98 180)
 		(effects
@@ -18367,6 +18387,16 @@
 		)
 		(uuid "2247b5a0-cfb8-4859-bcdb-3d55b7d2e4ba")
 	)
+	(label "Cell8"
+		(at 196.85 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2724aa2b-747e-4986-a4bb-b2eb4ee63f97")
+	)
 	(label "TEMP_CELLS_1"
 		(at 190.5 30.48 180)
 		(effects
@@ -18377,15 +18407,15 @@
 		)
 		(uuid "2825547b-c110-4b93-be69-6b5045111ed2")
 	)
-	(label "Cell10"
-		(at 196.85 130.81 180)
+	(label "Cell2"
+		(at 196.85 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2bc21d10-98a4-484c-871f-600aed9ac080")
+		(uuid "286eaa7d-5189-45c8-a33d-96cbcb688dfe")
 	)
 	(label "REG1_5V0"
 		(at 481.33 212.09 0)
@@ -18407,16 +18437,6 @@
 		)
 		(uuid "2e7e681c-af66-4516-8f95-e95aa6fa8e67")
 	)
-	(label "Cell2"
-		(at 196.85 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fb86b40-ba5b-43bf-9ace-fcda38a9619e")
-	)
 	(label "DDSG"
 		(at 383.54 248.92 180)
 		(effects
@@ -18436,16 +18456,6 @@
 			(justify right bottom)
 		)
 		(uuid "34e503ab-a29d-4335-a3b6-546a3c6fc4c8")
-	)
-	(label "Cell0"
-		(at 196.85 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3682773b-1fe4-4e11-ab5f-fdbe4d9ae736")
 	)
 	(label "VC2"
 		(at 318.77 284.48 0)
@@ -18477,6 +18487,16 @@
 		)
 		(uuid "3cd7a5f4-8a13-4092-8d01-e6397b328f08")
 	)
+	(label "TEMP_CELLS_3"
+		(at 190.5 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d552129-197f-4acd-a893-432ac1c99793")
+	)
 	(label "Cell7"
 		(at 39.37 223.52 0)
 		(effects
@@ -18486,16 +18506,6 @@
 			(justify left bottom)
 		)
 		(uuid "3dd9615e-1591-48c3-a267-bd272288d665")
-	)
-	(label "Cell4"
-		(at 196.85 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ee03b02-4bcb-45ca-ae5d-768f443c8a73")
 	)
 	(label "Cell13"
 		(at 39.37 109.22 0)
@@ -18517,16 +18527,6 @@
 		)
 		(uuid "416b0eea-e4ca-416e-bffb-e6be20cbd9fe")
 	)
-	(label "TEMP_CELLS_4"
-		(at 190.5 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "443aad09-faa5-44ba-82f2-c4ea7e32d478")
-	)
 	(label "TEMP_REF"
 		(at 383.54 266.7 180)
 		(effects
@@ -18537,6 +18537,16 @@
 		)
 		(uuid "46194926-fe26-42db-b06f-34661c475b01")
 	)
+	(label "Cell12"
+		(at 196.85 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47be7284-08d8-47a7-9ce5-4bdb2befb394")
+	)
 	(label "REGIN"
 		(at 318.77 236.22 0)
 		(effects
@@ -18546,16 +18556,6 @@
 			(justify left bottom)
 		)
 		(uuid "4890edb0-0af3-409f-8c99-c4860d26684e")
-	)
-	(label "Cell6"
-		(at 196.85 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e9076b7-2230-4f39-bb4e-442673603979")
 	)
 	(label "Cell3"
 		(at 39.37 299.72 0)
@@ -18616,16 +18616,6 @@
 			(justify right bottom)
 		)
 		(uuid "5b981f3d-639a-488e-aa62-0980eece0b0d")
-	)
-	(label "TEMP_CELLS_3"
-		(at 190.5 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5bff7a69-c033-4f98-950d-d295a1f9f436")
 	)
 	(label "TEMP_REF"
 		(at 274.32 30.48 180)
@@ -18787,16 +18777,6 @@
 		)
 		(uuid "7af3d327-a935-4a1a-8e5c-fd49742c75ec")
 	)
-	(label "Cell8"
-		(at 196.85 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "802783a4-d3de-4626-a10b-eb48c4840d9e")
-	)
 	(label "Cell9"
 		(at 39.37 185.42 0)
 		(effects
@@ -18807,25 +18787,15 @@
 		)
 		(uuid "84aa2c45-65b0-411d-864d-d41b6cfbfed5")
 	)
-	(label "Cell14"
-		(at 196.85 125.73 180)
+	(label "TEMP_CELLS_4"
+		(at 190.5 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "86261012-19b9-4bdf-b3b6-090a4285dd6e")
-	)
-	(label "Cell16"
-		(at 196.85 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86a258c5-d73e-4ea3-865d-be1ee0b1cdc9")
+		(uuid "858b2d45-b94a-4e61-a839-22b9280e125b")
 	)
 	(label "VC1"
 		(at 318.77 287.02 0)
@@ -18887,6 +18857,16 @@
 		)
 		(uuid "92eea183-43b9-421c-897d-8756dd43afb6")
 	)
+	(label "Cell0"
+		(at 196.85 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "976c7da5-8ed2-44d9-99f0-ebad927027f7")
+	)
 	(label "VC3"
 		(at 318.77 281.94 0)
 		(effects
@@ -18946,6 +18926,26 @@
 			(justify right bottom)
 		)
 		(uuid "a10d8422-4da9-4322-bd6f-667a2b121641")
+	)
+	(label "Cell14"
+		(at 196.85 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7514374-a52f-4274-a964-2e47b57258ae")
+	)
+	(label "Cell4"
+		(at 196.85 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a89ed973-54c4-4591-a1a1-b3f7ec148b12")
 	)
 	(label "Cell11"
 		(at 39.37 147.32 0)
@@ -19137,16 +19137,6 @@
 		)
 		(uuid "e3ef9b68-2332-422e-91b5-5c7cc6003303")
 	)
-	(label "Cell12"
-		(at 196.85 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e41161dc-62c9-4ded-87fe-aff454617c46")
-	)
 	(label "PACK{slash}LD"
 		(at 551.18 57.15 180)
 		(effects
@@ -19237,6 +19227,16 @@
 		)
 		(uuid "ee562906-13be-40b8-bba7-28548a690991")
 	)
+	(label "Cell6"
+		(at 196.85 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef7c8663-3ce3-49ed-99c3-0751012e0ef7")
+	)
 	(label "Cell5"
 		(at 196.85 181.61 180)
 		(effects
@@ -19258,7 +19258,7 @@
 		(uuid "f45adaa4-e83e-424c-8932-f0990e728934")
 	)
 	(label "TEMP_CELLS_2"
-		(at 190.5 44.45 180)
+		(at 190.5 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19651,6 +19651,143 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:S8B-ZR-SM4A-TF_LF_SN")
+		(at 175.26 177.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "043e020d-1c85-4ba5-93d4-2a8ce4f7cc0c")
+		(property "Reference" "U2"
+			(at 175.26 164.7303 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S8B-ZR-SM4A-TF_LF_SN"
+			(at 175.26 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:JST_ZH_S8B-ZR-SM4A-TF_1x08-1MP_P1.50mm_Horizontal"
+			(at 175.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301042030_JST-S8B-ZR-SM4A-TF-LF-SN_C471474.pdf"
+			(at 175.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 15mm 1A 1x8P 3.7mm 50V 6.5mm 8 8P Auxiliary Solder Pin Brass PA6T Surface Mount, Right Angle Tin UL94V-0 White ZH SMD,P=1.5mm,卧贴 Wire To Board Connector ROHS"
+			(at 175.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C471474"
+			(at 175.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 175.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "S8B-ZR-SM4A-TF(LF)(SN)"
+			(at 175.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "0eb775ec-be6b-4402-9bc3-b9a28e1ff34b")
+		)
+		(pin "2"
+			(uuid "3416b8c7-5570-4797-929d-1341a89bdd70")
+		)
+		(pin "8"
+			(uuid "56445b91-d08f-4bef-a6c9-ac5f69babaab")
+		)
+		(pin "1"
+			(uuid "4b3c6d7e-351f-4468-8059-182a2103e6e0")
+		)
+		(pin "6"
+			(uuid "3f64f7fa-e910-4336-9db2-534eb9b0f519")
+		)
+		(pin "9"
+			(uuid "ccab0a39-265a-4c3c-b841-b33fd014334c")
+		)
+		(pin "10"
+			(uuid "5da55617-f68c-43e0-9b49-70d3647412b5")
+		)
+		(pin "4"
+			(uuid "50f596fc-bf1a-412c-8ce7-2bbbfccfd840")
+		)
+		(pin "3"
+			(uuid "a235f78f-e8d5-4122-a2dd-c23490d27bb9")
+		)
+		(pin "5"
+			(uuid "6e085944-b5b7-4099-accb-631b2d6be9f4")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -21306,6 +21443,84 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 187.96 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3124009d-6274-4900-8efb-f4528b3992ce")
+		(property "Reference" "#PWR018"
+			(at 187.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TOP_CELL"
+			(at 187.96 113.9769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 187.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "256f2c39-28d1-4e3f-8399-64896f53c7be")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -23184,84 +23399,6 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 187.96 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a08eb45-d77d-4a6f-8049-5edfbae6b655")
-		(property "Reference" "#PWR018"
-			(at 187.96 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TOP_CELL"
-			(at 187.96 113.9769 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 187.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "417b731f-41c9-4eb9-bd3c-a8f3e820b126")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -25583,145 +25720,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:S8B-ZR-SM4A-TF_LF_SN")
-		(at 175.26 177.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6df4bce4-ec58-48a8-87f6-06b0a3d1a991")
-		(property "Reference" "U2"
-			(at 175.895 162.2255 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S8B-ZR-SM4A-TF_LF_SN"
-			(at 175.895 164.6498 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_ZH_S8B-ZR-SM4A-TF_1x08-1MP_P1.50mm_Horizontal"
-			(at 175.26 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301042030_JST-S8B-ZR-SM4A-TF-LF-SN_C471474.pdf"
-			(at 175.26 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 1.5mm 15mm 1A 1x8P 3.7mm 50V 6.5mm 8 8P Auxiliary Solder Pin Brass PA6T Surface Mount, Right Angle Tin UL94V-0 White ZH SMD,P=1.5mm,卧贴 Wire To Board Connector ROHS"
-			(at 175.26 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C471474"
-			(at 175.26 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 175.26 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "S8B-ZR-SM4A-TF(LF)(SN)"
-			(at 175.26 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "f9b6aabe-f7d2-437b-b804-41745dee9eff")
-		)
-		(pin "2"
-			(uuid "4541faa4-b15f-43c4-a2be-a030cb44a2f7")
-		)
-		(pin "8"
-			(uuid "698d7e4e-44b1-4816-8635-e3dad5d01c80")
-		)
-		(pin "1"
-			(uuid "050bc213-3c78-4bba-95c0-27f8945d1dab")
-		)
-		(pin "6"
-			(uuid "05b32136-40d4-4727-8a48-d6341dc66276")
-		)
-		(pin "9"
-			(uuid "280c8972-c6c2-4c6d-8b22-9a8b14ae594d")
-		)
-		(pin "10"
-			(uuid "128dcfcc-609b-49d1-b96d-6ec7f7aa8fbe")
-		)
-		(pin "4"
-			(uuid "d562d402-e555-4eb1-b23f-8760bdd1cbcd")
-		)
-		(pin "3"
-			(uuid "b6415592-bc9b-4954-9e5e-1e26784f4c99")
-		)
-		(pin "5"
-			(uuid "c1b95a13-ae32-40be-a9ea-1d20e4b5f0d4")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 170.18 177.8 270)
+		(at 170.18 180.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25731,7 +25731,7 @@
 		(dnp no)
 		(uuid "70fa418b-932d-467b-8e39-4f3a8039b39c")
 		(property "Reference" "#PWR017"
-			(at 163.83 177.8 0)
+			(at 163.83 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25742,7 +25742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.656 180.34 90)
+			(at 168.656 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25752,7 +25752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 177.8 0)
+			(at 170.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25763,7 +25763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 177.8 0)
+			(at 170.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25774,7 +25774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 177.8 0)
+			(at 170.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25869,84 +25869,6 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7338ed8f-3f95-4cec-ae8f-d240c97cfa83")
-		(property "Reference" "#PWR041"
-			(at 187.96 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 152.7231 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab541c90-3993-4443-8b62-c95d5a3b3193")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -26382,7 +26304,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 175.26 270)
+		(at 170.18 177.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26393,7 +26315,7 @@
 		(fields_autoplaced yes)
 		(uuid "8782d5c1-b1af-482f-9bac-6f63397ad18a")
 		(property "Reference" "#PWR016"
-			(at 163.83 175.26 0)
+			(at 163.83 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26404,7 +26326,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 172.3969 90)
+			(at 168.91 174.9369 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26414,7 +26336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 175.26 0)
+			(at 170.18 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26425,7 +26347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 175.26 0)
+			(at 170.18 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26436,7 +26358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 175.26 0)
+			(at 170.18 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26453,6 +26375,84 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89dc7b4f-3b90-4c9a-b501-671858944f7a")
+		(property "Reference" "#PWR041"
+			(at 187.96 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 152.7231 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "943d3baa-f723-42fd-b30a-c3c7fdc84324")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -29726,157 +29726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:S12B-ZR-SM4A-TF")
-		(at 177.8 132.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c38deb13-3b2c-4327-87b2-72630f325cf1")
-		(property "Reference" "CN1"
-			(at 171.958 130.8678 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S12B-ZR-SM4A-TF"
-			(at 171.958 133.2921 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_ZH_S12B-ZR-SM4A-TF_1x12-1MP_P1.50mm_Horizontal"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401151949_JST-S12B-ZR-SM4A-TF_C20089235.pdf"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 1.5mm 12 12P 1A 1x12P 21mm 3.7mm 50V 6.5mm Auxiliary Solder Pin Brass PA6T Surface Mount, Right Angle Tin UL94V-0 White ZH SMD,P=1.5mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C20089235"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "S12B-ZR-SM4A-TF"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "e483eb61-6fb6-477a-8fd5-593f52fb089d")
-		)
-		(pin "2"
-			(uuid "e663193f-bfda-42f8-8375-b7f55b3b46f6")
-		)
-		(pin "12"
-			(uuid "3a7d46c5-8f7a-4acc-830e-18f08474098f")
-		)
-		(pin "3"
-			(uuid "a0416958-e6c4-43d4-a538-be852bfb6cc8")
-		)
-		(pin "11"
-			(uuid "1dc279e2-4220-46d4-865c-6d47ea28db7d")
-		)
-		(pin "7"
-			(uuid "d6623bea-8c3e-4b05-8879-b2f26845fc30")
-		)
-		(pin "6"
-			(uuid "af049a67-0b5c-42b9-bab1-c4fa2df35492")
-		)
-		(pin "8"
-			(uuid "a46e68ca-f20f-48c3-9c06-ab30a296c432")
-		)
-		(pin "9"
-			(uuid "b267e50f-8e38-4a8d-adc0-6ce410c3534c")
-		)
-		(pin "10"
-			(uuid "b2ef6a27-a4f3-4ae2-a259-45634bd9e251")
-		)
-		(pin "4"
-			(uuid "9c621d2e-7985-4be5-a3b6-9e7168936a22")
-		)
-		(pin "14"
-			(uuid "ca6eb115-85c7-4dad-aa82-fd0898db5ee2")
-		)
-		(pin "1"
-			(uuid "e96c45c0-94bd-4d4a-b28e-fa68a7f54bce")
-		)
-		(pin "5"
-			(uuid "1a7e566b-7f0f-43c9-b773-e5062701f711")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,22nF")
 		(at 515.62 185.42 0)
 		(unit 1)
@@ -33080,6 +32929,157 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:S12B-ZR-SM4A-TF")
+		(at 177.8 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eab5b48b-86ea-48ac-8e53-6aa47512dc4d")
+		(property "Reference" "CN1"
+			(at 171.958 133.2922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S12B-ZR-SM4A-TF"
+			(at 171.958 130.8679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:JST_ZH_S12B-ZR-SM4A-TF_1x12-1MP_P1.50mm_Horizontal"
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401151949_JST-S12B-ZR-SM4A-TF_C20089235.pdf"
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 12 12P 1A 1x12P 21mm 3.7mm 50V 6.5mm Auxiliary Solder Pin Brass PA6T Surface Mount, Right Angle Tin UL94V-0 White ZH SMD,P=1.5mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20089235"
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "S12B-ZR-SM4A-TF"
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "5e04ef88-04f5-479d-adfb-6faa7e631ce2")
+		)
+		(pin "2"
+			(uuid "23b610c4-4e12-4fe9-ae75-5c9b36a359b7")
+		)
+		(pin "12"
+			(uuid "f9043ce6-e8a9-4762-9c86-bba00bce4e89")
+		)
+		(pin "3"
+			(uuid "bbb2ccd4-dee1-4896-827e-8e6b5cbe1392")
+		)
+		(pin "11"
+			(uuid "280dd88d-9f65-4691-a106-c16595c1e262")
+		)
+		(pin "7"
+			(uuid "0190b1fa-88f5-46a3-b4ab-14a316f9b843")
+		)
+		(pin "6"
+			(uuid "e7c60e2b-ee46-4ab4-88e3-ca5ebeedb44a")
+		)
+		(pin "8"
+			(uuid "77989122-bca0-4b0f-b19c-e550c157d91c")
+		)
+		(pin "9"
+			(uuid "44d8c2ac-3532-4491-8a8b-16667314327b")
+		)
+		(pin "10"
+			(uuid "9fbd11f5-2959-45d3-8922-c632f74d1abc")
+		)
+		(pin "4"
+			(uuid "5b0bf4e6-d26c-4c7d-bd82-754663e591e1")
+		)
+		(pin "14"
+			(uuid "3997ef3f-7805-4cc8-8836-384eb8042eb2")
+		)
+		(pin "1"
+			(uuid "4118bfa7-a0bb-4ae2-96d6-83c2140685b9")
+		)
+		(pin "5"
+			(uuid "743b17c0-5787-4ef4-b5e0-bce5ec7addfd")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
 		(at 533.4 218.44 0)
 		(unit 1)
@@ -34719,62 +34719,6 @@
 		)
 	)
 	(sheet
-		(at 148.59 54.61)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "14facb8c-7913-48f0-8c95-94965f8c72e2")
-		(property "Sheetname" "THERMISTOR_HEADER2"
-			(at 148.59 53.8984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 148.59 62.8146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "THERMISTOR_CHANNEL" input
-			(at 173.99 58.42 0)
-			(uuid "ed36b07f-67ed-421a-bbb9-3124a63cd352")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(page "21")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 50.8 207.01)
 		(size 34.29 13.97)
 		(exclude_from_sim no)
@@ -34947,62 +34891,6 @@
 		)
 	)
 	(sheet
-		(at 148.59 40.64)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "524a3c24-e1d4-440c-a5de-5fa78cca8f92")
-		(property "Sheetname" "THERMISTOR_HEADER1"
-			(at 148.59 39.9284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 148.59 48.8446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "THERMISTOR_CHANNEL" input
-			(at 173.99 44.45 0)
-			(uuid "5c6a2232-8296-482f-9dc3-ec66ae839738")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 50.8 92.71)
 		(size 34.29 13.97)
 		(exclude_from_sim no)
@@ -35090,7 +34978,7 @@
 	)
 	(sheet
 		(at 148.59 26.67)
-		(size 25.4 7.62)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -35116,7 +35004,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 148.59 34.8746 0)
+			(at 148.59 37.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35126,9 +35014,19 @@
 				(justify left top)
 			)
 		)
-		(pin "THERMISTOR_CHANNEL" input
+		(pin "THERMISTOR_CHANNEL_A" input
 			(at 173.99 30.48 0)
-			(uuid "61094578-199f-4820-b38e-cace916bff16")
+			(uuid "aa2df092-68e8-4a8d-a874-31e81794cab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "THERMISTOR_CHANNEL_B" input
+			(at 173.99 33.02 0)
+			(uuid "c681e1ff-70e6-474a-b2b2-0eca5218bdae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35489,8 +35387,8 @@
 		)
 	)
 	(sheet
-		(at 148.59 68.58)
-		(size 25.4 7.62)
+		(at 148.59 43.18)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -35503,9 +35401,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "a9e3e829-22d3-464f-b954-379e2fb6907f")
-		(property "Sheetname" "THERMISTOR_HEADER3"
-			(at 148.59 67.8684 0)
+		(uuid "9f96e44b-6db3-4bce-bd80-4570878078bb")
+		(property "Sheetname" "THERMISTOR_HEADER1"
+			(at 148.59 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35516,7 +35414,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 148.59 76.7846 0)
+			(at 148.59 53.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35526,9 +35424,19 @@
 				(justify left top)
 			)
 		)
-		(pin "THERMISTOR_CHANNEL" input
-			(at 173.99 72.39 0)
-			(uuid "48cbae29-975c-45a8-a17e-4b1d18201a74")
+		(pin "THERMISTOR_CHANNEL_A" input
+			(at 173.99 46.99 0)
+			(uuid "156ecc61-11b4-4cb6-8ce3-95f89d006b3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "THERMISTOR_CHANNEL_B" input
+			(at 173.99 49.53 0)
+			(uuid "38cf755b-eb3c-438a-b69b-d7fdc471098b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35539,7 +35447,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4"
-					(page "22")
+					(page "20")
 				)
 			)
 		)

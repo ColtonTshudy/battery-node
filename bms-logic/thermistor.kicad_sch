@@ -5,7 +5,7 @@
 	(uuid "23ab3aff-1065-41eb-80ca-a3f8282eb873")
 	(paper "A4")
 	(lib_symbols
-		(symbol "JLCImport:SM02B-NSHSS-TB_LF_SN"
+		(symbol "JLCImport:S4B-ZR-SM4A-TF_LF_SN"
 			(pin_names
 				(offset 1.016)
 			)
@@ -14,8 +14,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at 0 9.62 0)
+			(property "Reference" "CN"
+				(at 0 10.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -24,8 +24,8 @@
 					)
 				)
 			)
-			(property "Value" "SM02B-NSHSS-TB_LF_SN"
-				(at 0 -7.08 0)
+			(property "Value" "S4B-ZR-SM4A-TF_LF_SN"
+				(at 0 -10.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:SM02B-NSHSS-TB_LF_SN"
+			(property "Footprint" "JLCImport:JST_ZH_S4B-ZR-SM4A-TF_1x04-1MP_P1.50mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -45,7 +45,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811031616_JST-SM02B-NSHSS-TB-LF-SN_C265415.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161635_JST-S4B-ZR-SM4A-TF-LF-SN_C485354.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +56,7 @@
 					)
 				)
 			)
-			(property "Description" "-25℃~+85℃ 1 1A 1x3P (Missing 1P) 2P (3P Missing 1P) 2mm 3 4.4mm 50V 5mm 6.8mm Copper alloy Missing pin、Auxiliary Solder Pin NSH PA Surface Mount, Right Angle Tin UL94V-0 White SMD,P=2mm,卧贴 Wire To Board Connector ROHS"
+			(property "Description" "-25℃~+85℃ 1 1.5mm 1A 1x4P 3.7mm 4 4P 50V 6.5mm 9mm Auxiliary Solder Pin Brass PA6T Surface Mount, Right Angle Tin UL94V-0 White ZH SMD,P=1.5mm,卧贴 Wire To Board Connector ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -67,7 +67,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C265415"
+			(property "LCSC" "C485354"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,7 +89,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "SM02B-NSHSS-TB(LF)(SN)"
+			(property "Manufacturer Part" "S4B-ZR-SM4A-TF(LF)(SN)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,7 +100,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C265415 CONN-SMD_SM02B-NSHSS-TB-LF-SN JST SM02B-NSHSS-TB(LF)(SN)"
+			(property "ki_keywords" "C485354 CONN-SMD_4P-P1.50_S4B-ZR-SM4A-TF-LF-SN JST S4B-ZR-SM4A-TF(LF)(SN)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -111,9 +111,9 @@
 					)
 				)
 			)
-			(symbol "SM02B-NSHSS-TB_LF_SN_0_1"
+			(symbol "S4B-ZR-SM4A-TF_LF_SN_0_1"
 				(circle
-					(center -1.27 3.81)
+					(center 0 5.08)
 					(radius 0.381)
 					(stroke
 						(width 0.254)
@@ -125,13 +125,13 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 -2.54) (xy 7.2111 -2.5302) (xy 7.3064 -2.5013) (xy 7.3942 -2.4544) (xy 7.4712 -2.3912)
-						(xy 7.5344 -2.3142) (xy 7.5813 -2.2264) (xy 7.6103 -2.1311) (xy 7.62 -2.032) (xy 7.6103 4.6711)
-						(xy 7.5813 4.7664) (xy 7.5344 4.8542) (xy 7.4712 4.9312) (xy 7.3942 4.9944) (xy 7.3064 5.0413)
-						(xy 7.2111 5.0702) (xy 7.112 5.08) (xy -2.1311 5.0702) (xy -2.2264 5.0413) (xy -2.3142 4.9944)
-						(xy -2.3912 4.9312) (xy -2.4544 4.8542) (xy -2.5013 4.7664) (xy -2.5302 4.6711) (xy -2.54 4.572)
-						(xy -2.5302 -2.1311) (xy -2.5013 -2.2264) (xy -2.4544 -2.3142) (xy -2.3912 -2.3912) (xy -2.3142 -2.4544)
-						(xy -2.2264 -2.5013) (xy -2.1311 -2.5302) (xy -2.032 -2.54) (xy 7.112 -2.54)
+						(xy 4.572 -6.35) (xy 4.6711 -6.3403) (xy 4.7664 -6.3113) (xy 4.8542 -6.2644) (xy 4.9312 -6.2012)
+						(xy 4.9944 -6.1242) (xy 5.0413 -6.0364) (xy 5.0702 -5.9411) (xy 5.08 -5.842) (xy 5.0702 5.9411)
+						(xy 5.0413 6.0364) (xy 4.9944 6.1242) (xy 4.9312 6.2012) (xy 4.8542 6.2644) (xy 4.7664 6.3113)
+						(xy 4.6711 6.3403) (xy 4.572 6.35) (xy -0.8611 6.3403) (xy -0.9564 6.3113) (xy -1.0442 6.2644)
+						(xy -1.1212 6.2012) (xy -1.1844 6.1242) (xy -1.2313 6.0364) (xy -1.2602 5.9411) (xy -1.27 5.842)
+						(xy -1.2602 -5.9411) (xy -1.2313 -6.0364) (xy -1.1844 -6.1242) (xy -1.1212 -6.2012) (xy -1.0442 -6.2644)
+						(xy -0.9564 -6.3113) (xy -0.8611 -6.3403) (xy -0.762 -6.35) (xy 4.572 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -142,7 +142,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 2.54 0)
+					(at -3.81 3.81 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -160,7 +160,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 0 0)
+					(at -3.81 1.27 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -178,7 +178,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 -5.08 90)
+					(at -3.81 -1.27 0)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -196,7 +196,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 7.62 270)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -206,6 +206,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 8.89 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -630,25 +666,27 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "use smaller connector"
-		(exclude_from_sim no)
-		(at 129.032 105.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "86b291fc-b3c6-44c0-bfca-f3c28a1126cc")
+	(junction
+		(at 135.89 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "340be403-8760-4efe-bae6-1ede7e6d9a5a")
+	)
+	(junction
+		(at 111.76 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85668755-32b7-4467-bb43-4218f4116d05")
 	)
 	(junction
 		(at 135.89 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1441bef2-769a-41eb-9c62-01b24b3f1cce")
+		(uuid "dfe6a823-e905-418c-a2d9-77350cfef819")
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 123.19 92.71)
+			(xy 107.95 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -658,13 +696,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 92.71) (xy 123.19 97.79)
+			(xy 127 109.22) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "922b7918-9f9c-4c95-8e6d-1ecabdfcb043")
+		(uuid "39aad35b-8291-49b5-bdef-69f979c9089c")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc10c50-3db2-4776-a687-38f71c50cff5")
 	)
 	(wire
 		(pts
@@ -678,7 +726,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 90.17) (xy 135.89 90.17)
+			(xy 135.89 109.22) (xy 143.51 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85cdd5c-c40b-4132-bfb5-54f48739a084")
+	)
+	(wire
+		(pts
+			(xy 107.95 90.17) (xy 135.89 90.17)
 		)
 		(stroke
 			(width 0)
@@ -686,7 +744,58 @@
 		)
 		(uuid "a93b8a5e-274f-4a28-82be-1a73a1fa82cb")
 	)
-	(hierarchical_label "THERMISTOR_CHANNEL"
+	(wire
+		(pts
+			(xy 127 109.22) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5b7be9-6c8b-48b6-8200-bc62616be686")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 107.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c061b099-a54f-4e14-9f7e-72ddbf21b6ee")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 111.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3516d8b-ad1c-4d4f-9ed5-5bc48dcb50e4")
+	)
+	(wire
+		(pts
+			(xy 127 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec75b9ea-6887-43fa-8307-efc99f3b6b12")
+	)
+	(hierarchical_label "THERMISTOR_CHANNEL_B"
+		(shape input)
+		(at 143.51 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "728b5ffd-906e-45d3-be9e-25b38d55e0f1")
+	)
+	(hierarchical_label "THERMISTOR_CHANNEL_A"
 		(shape input)
 		(at 143.51 90.17 0)
 		(effects
@@ -699,7 +808,302 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 97.79 0)
+		(at 135.89 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "176c2868-b9f5-4aa4-b5fc-87a5f90715f4")
+		(property "Reference" "#PWR095"
+			(at 135.89 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 120.9731 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c36dfce0-45ec-408e-b021-1c25e40bdcca")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17c38e4b-1f3e-4075-8472-331d6b473e64")
+		(property "Reference" "#PWR094"
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 107.0031 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dbb1729-216e-4417-bb37-09fd5e445e99")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:S4B-ZR-SM4A-TF_LF_SN")
+		(at 104.14 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cca54aa-f0e0-42b6-919d-8d3111e56387")
+		(property "Reference" "CN2"
+			(at 98.298 92.7678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S4B-ZR-SM4A-TF_LF_SN"
+			(at 98.298 95.1921 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:JST_ZH_S4B-ZR-SM4A-TF_1x04-1MP_P1.50mm_Horizontal"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161635_JST-S4B-ZR-SM4A-TF-LF-SN_C485354.pdf"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 1A 1x4P 3.7mm 4 4P 50V 6.5mm 9mm Auxiliary Solder Pin Brass PA6T Surface Mount, Right Angle Tin UL94V-0 White ZH SMD,P=1.5mm,卧贴 Wire To Board Connector ROHS"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C485354"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "S4B-ZR-SM4A-TF(LF)(SN)"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6800952a-4364-4e58-86b8-3d6174971064")
+		)
+		(pin "1"
+			(uuid "34b81a23-6838-4c1f-86f1-d3c864c6b85d")
+		)
+		(pin "3"
+			(uuid "17b9bf0a-f978-4504-be11-7b8a68b06ac8")
+		)
+		(pin "6"
+			(uuid "0a7ee4dc-4c64-4026-a25c-18690b0d11ad")
+		)
+		(pin "4"
+			(uuid "9eb39efd-65c4-4148-9aa6-df8f46b4bcc3")
+		)
+		(pin "5"
+			(uuid "897d8fcd-4e4d-4908-a300-9a525e8b779a")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
+					(reference "CN2")
+					(unit 1)
+				)
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -710,7 +1114,7 @@
 		(fields_autoplaced yes)
 		(uuid "46eb673e-e7b7-4a13-bb51-7db1decef603")
 		(property "Reference" "#PWR074"
-			(at 111.76 104.14 0)
+			(at 100.33 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -721,7 +1125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 101.9231 0)
+			(at 100.33 107.0031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -731,7 +1135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 97.79 0)
+			(at 100.33 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -742,7 +1146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 97.79 0)
+			(at 100.33 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -753,7 +1157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 97.79 0)
+			(at 100.33 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -764,24 +1168,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "acaa250a-cfd9-4a01-8798-692bea10f4da")
+			(uuid "e6ebbb4c-d8e7-49fe-83af-fe06c0f4c584")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/14facb8c-7913-48f0-8c95-94965f8c72e2"
-					(reference "#PWR082")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/524a3c24-e1d4-440c-a5de-5fa78cca8f92"
-					(reference "#PWR078")
-					(unit 1)
-				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
 					(reference "#PWR074")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/a9e3e829-22d3-464f-b954-379e2fb6907f"
-					(reference "#PWR086")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -789,7 +1185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 85.09 180)
+		(at 100.33 85.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -800,7 +1196,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b5f8dfc-c2b2-40b0-88be-46b8f2526687")
 		(property "Reference" "#PWR073"
-			(at 111.76 78.74 0)
+			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -811,7 +1207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 80.9569 0)
+			(at 100.33 80.9569 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -821,7 +1217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 85.09 0)
+			(at 100.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -832,7 +1228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 85.09 0)
+			(at 100.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -843,7 +1239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 85.09 0)
+			(at 100.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -854,114 +1250,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a6c4e38-b195-46d3-8094-81049c41aabb")
+			(uuid "213dad20-808d-41c3-8ca0-4a5d2fdaa7cd")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/14facb8c-7913-48f0-8c95-94965f8c72e2"
-					(reference "#PWR081")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/524a3c24-e1d4-440c-a5de-5fa78cca8f92"
-					(reference "#PWR077")
-					(unit 1)
-				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
 					(reference "#PWR073")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/a9e3e829-22d3-464f-b954-379e2fb6907f"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58879f48-3c2c-473f-b317-1bb9a6de9c2a")
-		(property "Reference" "#PWR075"
-			(at 123.19 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 101.9231 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e4b348c-3477-4c1c-9b41-a6fdc45a5515")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/14facb8c-7913-48f0-8c95-94965f8c72e2"
-					(reference "#PWR083")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/524a3c24-e1d4-440c-a5de-5fa78cca8f92"
-					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
 					(reference "#PWR075")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/a9e3e829-22d3-464f-b954-379e2fb6907f"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1034,24 +1332,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "840e3453-717b-4b70-92f5-9831f9e2aa52")
+			(uuid "c0b3cf22-c426-4110-9a2d-25573e74ce53")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/14facb8c-7913-48f0-8c95-94965f8c72e2"
-					(reference "#PWR084")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/524a3c24-e1d4-440c-a5de-5fa78cca8f92"
-					(reference "#PWR080")
-					(unit 1)
-				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
 					(reference "#PWR076")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/a9e3e829-22d3-464f-b954-379e2fb6907f"
-					(reference "#PWR088")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1278,35 +1568,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "8b908bb7-09b6-4e20-bf32-2b2097f4a112")
+			(uuid "9e267d6f-bac8-400e-9305-0df0f39e56bc")
 		)
 		(pin "1"
-			(uuid "25861a9f-43e8-4222-88a3-6e0e7f5d0c59")
+			(uuid "dee68bb2-87f6-42b3-abdf-be97445d0b30")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/14facb8c-7913-48f0-8c95-94965f8c72e2"
-					(reference "C52")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/524a3c24-e1d4-440c-a5de-5fa78cca8f92"
-					(reference "C51")
-					(unit 1)
-				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
 					(reference "C50")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/a9e3e829-22d3-464f-b954-379e2fb6907f"
-					(reference "C53")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
+					(reference "C51")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:SM02B-NSHSS-TB_LF_SN")
-		(at 116.84 90.17 180)
+		(lib_id "PCM_JLCPCB-Capacitors:0402,470pF")
+		(at 135.89 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1314,10 +1596,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b2dbc2e-73a2-4539-b091-9f7ad41e97b3")
-		(property "Reference" "P1"
-			(at 108.4581 90.2278 0)
+		(uuid "ba2807be-0fd8-4c74-9d68-72bb6e316c6d")
+		(property "Reference" "C56"
+			(at 137.16 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1327,19 +1608,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM02B-NSHSS-TB_LF_SN"
-			(at 108.4581 92.6521 0)
+		(property "Value" "470pF"
+			(at 137.16 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCImport:SM02B-NSHSS-TB_LF_SN"
-			(at 116.84 90.17 0)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 134.112 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1349,8 +1630,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811031616_JST-SM02B-NSHSS-TB-LF-SN_C265415.pdf"
-			(at 116.84 90.17 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B471K500NT_C1537.pdf"
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1360,8 +1641,8 @@
 				)
 			)
 		)
-		(property "Description" "-25℃~+85℃ 1 1A 1x3P (Missing 1P) 2P (3P Missing 1P) 2mm 3 4.4mm 50V 5mm 6.8mm Copper alloy Missing pin、Auxiliary Solder Pin NSH PA Surface Mount, Right Angle Tin UL94V-0 White SMD,P=2mm,卧贴 Wire To Board Connector ROHS"
-			(at 116.84 90.17 0)
+		(property "Description" "50V 470pF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1371,8 +1652,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C265415"
-			(at 116.84 90.17 0)
+		(property "LCSC" "C1537"
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,8 +1663,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 116.84 90.17 0)
+		(property "Stock" "200569"
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1393,8 +1674,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "SM02B-NSHSS-TB(LF)(SN)"
-			(at 116.84 90.17 0)
+		(property "Price" "0.004USD"
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1404,34 +1685,141 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "414ae53e-958c-46bc-8541-d59f1692c362")
+		(property "Process" "SMT"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "7d9ff87e-887d-4954-a1dd-87d81fbab79c")
+		(property "Minimum Qty" "20"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0402B471K500NT"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 134.874 117.348 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "470pF"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "654546ca-3451-4538-b040-b099be5c10cd")
+			(uuid "251d75ff-1a46-46da-943a-005bcba24b40")
 		)
-		(pin "4"
-			(uuid "961f4025-74ce-4fdb-9fd1-289eb311e77e")
+		(pin "1"
+			(uuid "c406983c-63f4-4360-8713-cfb80d917df5")
 		)
 		(instances
 			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/14facb8c-7913-48f0-8c95-94965f8c72e2"
-					(reference "P3")
-					(unit 1)
-				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/524a3c24-e1d4-440c-a5de-5fa78cca8f92"
-					(reference "P2")
-					(unit 1)
-				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
-					(reference "P1")
+					(reference "C56")
 					(unit 1)
 				)
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/a9e3e829-22d3-464f-b954-379e2fb6907f"
-					(reference "P4")
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
+					(reference "C57")
 					(unit 1)
 				)
 			)

@@ -1702,24 +1702,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 3.81 -8.89 90)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			)
+			(symbol "S4B-ZR-SM4A-TF_LF_SN_1_1"
 				(pin unspecified line
 					(at 3.81 8.89 270)
 					(length 2.54)
@@ -1730,7 +1714,25 @@
 							)
 						)
 					)
-					(number "6"
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16509,7 +16511,7 @@
 		(pin "3"
 			(uuid "bff2855e-54d3-4731-85cf-28c43f9728fb")
 		)
-		(pin "6"
+		(pin "MP"
 			(uuid "a66dd689-c8a0-4a5b-9627-39738f832a42")
 		)
 		(pin "2"
@@ -16521,7 +16523,7 @@
 		(pin "1"
 			(uuid "56cb312e-366e-45f9-a4c7-04c63bbffcc8")
 		)
-		(pin "5"
+		(pin "MP"
 			(uuid "272156a5-876d-4223-b846-216ddea8fa84")
 		)
 		(instances

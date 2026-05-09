@@ -4283,6 +4283,16 @@
 		)
 		(uuid "83acd3eb-30bb-45dc-be53-973702a3ee28")
 	)
+	(text "Add interface for display"
+		(exclude_from_sim no)
+		(at 183.134 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a64fc45-ebe1-49a0-8325-c6e318b727c1")
+	)
 	(text "Programming Header"
 		(exclude_from_sim no)
 		(at 250.698 202.438 0)

@@ -4252,6 +4252,16 @@
 		)
 		(uuid "261c81ec-6b26-44c3-9900-e63145bb0f5c")
 	)
+	(text "No decoupling cap needed; implemented on ESP32 subcircuit"
+		(exclude_from_sim no)
+		(at 216.916 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26d0a4cb-e487-4df2-b545-549d6c87becd")
+	)
 	(text "CAN_RX falling interrupt\nmay indicate a CANbus message\nor bootstrap capacitor\nhas emptied. Either way, we\nwant to re-enable the isolated\n5V DC-DC"
 		(exclude_from_sim no)
 		(at 365.506 66.04 0)
@@ -4272,6 +4282,16 @@
 			)
 		)
 		(uuid "4fadb317-c808-4256-af20-76390702fbb1")
+	)
+	(text "Deep sleep wakeup pins: IO 8-14"
+		(exclude_from_sim no)
+		(at 199.39 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7183591c-45f9-4d6d-a35a-dadb0959cec1")
 	)
 	(text "JTAG over USB"
 		(exclude_from_sim no)
@@ -4314,16 +4334,6 @@
 			)
 		)
 		(uuid "98b89ce5-2379-4cce-85d5-41128124175d")
-	)
-	(text "falling interrupt"
-		(exclude_from_sim no)
-		(at 168.91 105.918 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b77965eb-e55b-422f-93f2-004c982e7525")
 	)
 	(text "falling interrupt"
 		(exclude_from_sim no)
@@ -4418,16 +4428,14 @@
 		(uuid "f4138e62-6f85-4abe-bb6a-84f06849c22e")
 	)
 	(junction
-		(at 233.68 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f426258b-0642-4ed6-8ab5-883e54d7b6d9")
-	)
-	(junction
 		(at 218.44 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb992579-27c6-4cf2-88a9-3f1e36bd3421")
+	)
+	(no_connect
+		(at 251.46 59.69)
+		(uuid "00e1dc9c-e0e3-43ce-8952-d95d9151f2a4")
 	)
 	(no_connect
 		(at 251.46 64.77)
@@ -4657,16 +4665,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 86.36) (xy 332.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b5e9a45-4825-4e21-8db1-41a2bb34ce52")
-	)
-	(wire
-		(pts
 			(xy 193.04 93.98) (xy 203.2 93.98)
 		)
 		(stroke
@@ -4734,6 +4732,16 @@
 			(type default)
 		)
 		(uuid "3d85d810-3b4f-4207-b908-db5d6c6307af")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e32f614-e775-42c6-9745-7d5e5edd8621")
 	)
 	(wire
 		(pts
@@ -4957,16 +4965,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 184.15 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbed4eb-1b0e-49d5-8aa6-df3c4120ce2d")
-	)
-	(wire
-		(pts
 			(xy 184.15 102.87) (xy 180.34 102.87)
 		)
 		(stroke
@@ -5027,16 +5025,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 130.81) (xy 255.27 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8231e417-f1c9-46ea-9a4b-66e2a1be40e9")
-	)
-	(wire
-		(pts
 			(xy 218.44 219.71) (xy 217.17 219.71)
 		)
 		(stroke
@@ -5067,6 +5055,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910071b1-9f95-45df-b91b-7971239f7a85")
+	)
+	(wire
+		(pts
 			(xy 130.81 116.84) (xy 184.15 116.84)
 		)
 		(stroke
@@ -5094,16 +5092,6 @@
 			(type default)
 		)
 		(uuid "9b138073-756b-41bb-a8d1-64eae4db92ae")
-	)
-	(wire
-		(pts
-			(xy 180.34 127) (xy 184.15 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4e9c4a-1bb4-45e1-82b4-70e78063c33f")
 	)
 	(wire
 		(pts
@@ -5154,6 +5142,16 @@
 			(type default)
 		)
 		(uuid "a38971e1-da9d-4fd3-aa9e-d8a62e4c606b")
+	)
+	(wire
+		(pts
+			(xy 147.32 119.38) (xy 147.32 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e267e6-3002-4774-a809-8ce6174a28de")
 	)
 	(wire
 		(pts
@@ -5324,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "dd7c1e55-3032-4b31-b814-f22c061dfd41")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 184.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53e971e-ee3b-4f76-953a-3179c3745705")
 	)
 	(wire
 		(pts
@@ -5545,16 +5553,6 @@
 		)
 		(uuid "81d619f7-276f-4255-9574-6084fae13491")
 	)
-	(label "CAN_SHUTDOWN"
-		(at 255.27 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99dad4b7-7a19-4eed-ab7f-5862534ceac8")
-	)
 	(label "USB_nINT"
 		(at 316.23 78.74 0)
 		(effects
@@ -5584,16 +5582,6 @@
 			(justify right bottom)
 		)
 		(uuid "a4fcbb6d-74f3-4fbe-be97-f06346795d8e")
-	)
-	(label "CAN_SHUTDOWN"
-		(at 316.23 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7310717-1972-4282-bba2-6f5b4345027d")
 	)
 	(label "CAN_TX"
 		(at 322.58 63.5 0)
@@ -5967,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
 			(at 248.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6706,6 +6694,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 248.92 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f7cbb45-1393-42b6-8617-9b7c5eaef828")
+		(property "Reference" "H3"
+			(at 236.22 57.2657 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 236.22 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1682618b-5433-4303-8739-138166859e88")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 248.92 0)
 		(unit 1)
@@ -7437,6 +7501,84 @@
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.34 106.68 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e66962a-28b5-4990-863b-86dc71f7aaca")
+		(property "Reference" "TP4"
+			(at 173.99 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO25"
+			(at 171.196 101.346 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 180.34 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0fad863-5dcd-4173-a0d7-b9aff6825d89")
+		)
+		(instances
+			(project "battery-node"
+				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8449,84 +8591,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 180.34 127 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a63ce1b8-376c-4556-8adc-fdd7d1fb7141")
-		(property "Reference" "TP4"
-			(at 173.99 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO25"
-			(at 171.196 121.666 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 180.34 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 180.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33c655c7-d0be-4342-afc2-8166dbda2405")
-		)
-		(instances
-			(project "battery-node"
-				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 236.22 134.62 0)
 		(mirror x)
 		(unit 1)
@@ -9405,7 +9469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
 			(at 248.92 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11232,7 +11296,7 @@
 			)
 		)
 		(pin "ALERT" input
-			(at 119.38 106.68 0)
+			(at 119.38 119.38 0)
 			(uuid "490a8e22-7c83-458d-b8cf-f14ec415335c")
 			(effects
 				(font
@@ -11360,16 +11424,6 @@
 		(pin "USB_nINT" input
 			(at 332.74 78.74 180)
 			(uuid "cb49cf97-60a5-417c-bb86-f2b74a70b0d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_SHUTDOWN" input
-			(at 332.74 86.36 180)
-			(uuid "dab60758-ae3c-4eba-8a6f-484231592d8a")
 			(effects
 				(font
 					(size 1.27 1.27)

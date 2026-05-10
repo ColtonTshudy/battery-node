@@ -10823,6 +10823,16 @@
 		)
 		(uuid "289cead1-b481-43e3-b763-3f5cc8bf3a3e")
 	)
+	(text "change sch symbool to CN?"
+		(exclude_from_sim no)
+		(at 357.632 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61b47870-760f-4c59-a0c7-d0123d79e63a")
+	)
 	(text "Isolated CANbus 2.0B Interface"
 		(exclude_from_sim no)
 		(at 247.65 92.202 0)
@@ -17198,7 +17208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cc87de9-3f29-4f70-8616-67a775f04cc8")
-		(property "Reference" "CN5"
+		(property "Reference" "CN7"
 			(at 378.714 135.4977 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17307,7 +17317,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "CN5")
+					(reference "CN7")
 					(unit 1)
 				)
 			)
@@ -22854,7 +22864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae557ebe-bf96-48ca-8a60-58fa11662a4b")
-		(property "Reference" "J3"
+		(property "Reference" "CN8"
 			(at 328.93 176.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22963,7 +22973,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/a0e287d3-b915-410a-86a7-dfb59e4205a2"
-					(reference "J3")
+					(reference "CN8")
 					(unit 1)
 				)
 			)

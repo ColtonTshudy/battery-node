@@ -984,7 +984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cca54aa-f0e0-42b6-919d-8d3111e56387")
-		(property "Reference" "CN2"
+		(property "Reference" "CN4"
 			(at 98.298 92.7678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1093,7 +1093,7 @@
 		(instances
 			(project "battery-node"
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/5ed4f55b-1488-4427-9d20-f9a6669b64e7"
-					(reference "CN2")
+					(reference "CN4")
 					(unit 1)
 				)
 				(path "/0531bb65-44fe-462a-8fbf-92fb22c9abe0/2e6fa66d-cf61-4130-94fd-f989bd2a39c4/9f96e44b-6db3-4bce-bd80-4570878078bb"
